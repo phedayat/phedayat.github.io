@@ -13,7 +13,7 @@ The Fermat primality test is a method of checking whether an integer is a prime 
 
 $$a^{p-1} \equiv 1$$
 
-The beauty of this test is that it's an if and only if, meaning that this relation holds true if \\(p\\) is prime, but also if the relation is true, then \\(p\\) is prime.
+The beauty of this test is that it's an if and only if, meaning that this relation holds true if \\(p\\) is prime, but also if the relation is true, then \\(p\\) is prime. (A good question: which direction of the relation is more important?)
 
 Now we answer the question: why didn't my friend's program work? He had written it in Java and was testing it out for \\(a=1000\\), and \\(p=1249\\). If you type this into WolframAlpha, you'll see that the primality test holds and \\(1249\\) is in fact prime. However, my friend couldn't get this answer from his program. He was actually getting \\(2147483647\\) over and over again.
 
