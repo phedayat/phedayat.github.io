@@ -8,7 +8,7 @@ I finally created my personal site! Only took me 2 years to finally do it.
 
 I'm proud of having anything to put on the site in general. I'll start filling out this blog more later. I have some things to write about, maybe I'll do a survey of the things I'm working on. Part of the reason I like the idea of maintaining this blog is that I need to get over not being able to talk about myself.
 
-Obviously the site is made with Github Pages through Jekyll, but I had so many issues _setting it up_ on my machine, that I resorted to more drastic measures. I'm maintaining the site (i.e. updating, adding, removing content and layout) through a private repl hosted on [Replit](https://replit.com). I'm pleasantly surprised that it _works_. Here's the current process for updating the site:
+Obviously the site is made with Github Pages through Jekyll, but I had so many issues _setting it up_ on my machine, that I resorted to more drastic measures. I'm maintaining the site (i.e. layout and updating, adding, removing content) through a private repl hosted on [Replit](https://replit.com). I'm pleasantly surprised that it _works_. Here's the current process for updating the site:
  1. Content
  2. Head into the repl and update/add/remove the content
  3. Use Replit's version control feature to update my corresponding private Github repo

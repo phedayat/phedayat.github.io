@@ -5,15 +5,15 @@ title: Home
 
 <div style="display: inline-block">
     <span style="float: left; width: 60%;">
-        <p>Hello! My name's Parsia</p>
+        <p>Hello! My name's Parsia.</p>
         <p>
             I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
             I have an interest in many fields and topics, but the most prevailing are 
             software engineering, machine learning, and data engineering/science/analytics.
         </p>
         <p>
-            Check out my projects page to see what I'm working on and proud of!
-            Check out my blog!
+            Check out my <a href="/projects">projects page</a> to see what I'm working on and proud of!
+            Check out my <a href="/blog">blog</a>!
         </p>
     </span>
     <span style="float: right; text-align: center; width: 30%;">
