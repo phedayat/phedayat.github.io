@@ -28,6 +28,9 @@ url: "https://phedayat.com/" # the base hostname & protocol for your site, e.g. 
 twitter_username: hedayatparsia
 github_username:  phedayat
 linkedin_username: phedayat
+markdown: kramdown
+kramdown:
+    math_engine: katex
 
 # Build settings
 theme: minima
