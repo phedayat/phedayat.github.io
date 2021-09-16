@@ -32,8 +32,8 @@ Early in my SUMS publicity duties, I started learning Python again (since the la
 
 ---
 <br>
-#### _Convex Hull Visual (Graham scan)_
-##### [Visit the repo]()
+#### _Convex Hull Visualization (Graham scan)_
+##### [Visit the repo](https://github.com/phedayat/python-scripts/tree/master/convex-hull-alg)
 
 Using Python and Turtle, I created a visual for performing a Graham scan and finding the convex hull of a set of points. It draws out the convex hull, defining the edge of the set of points. 
 

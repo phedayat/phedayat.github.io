@@ -4,8 +4,9 @@ title: Programming is Fun
 date: 2021-09-16
 math: True
 ---
+<h2 style="color: red;">WARNING: Removing this post soon.</h2>
 
-Towards the end of Spring 2021, a friend of mine messages me saying he has a question. He's taking a second course in modern alegbra, that I had taken Winter 2020, and trying to write a program for the Fermat primality test. Unfortunately, he's getting garbage answers, which he knows by checking the answer in WolframAlpha.
+A fun little issue I dealt with towards the end of Spring 2021: a friend of mine is writing a program for the Fermat primality test. Unforunately, it's not working correctly.
 
 What is the Fermat primality test and why didn't my friend's program work?
 
@@ -15,8 +16,8 @@ $$a^{p-1} \equiv 1$$
 
 The beauty of this test is that it's an if and only if, meaning that this relation holds true if \\(p\\) is prime, but also if the relation is true, then \\(p\\) is prime. (A good question: which direction of the relation is more important?)
 
-Now we answer the main question: why didn't my friend's program work? He had written it in Java and was testing it out for \\(a=1000\\), and \\(p=1249\\). If you type this into WolframAlpha, you'll see that the primality test holds and \\(1249\\) is in fact prime. However, my friend couldn't get this answer from his program. He was actually getting \\(2147483647\\) over and over again.
+Now we answer the main question: why didn't program work? He had written it in Java and was testing it out with \\(a=1000\\), and \\(p=1249\\). If you reference WolframAlpha, you'll see that the primality test holds and \\(1249\\) is in fact prime. However, my friend couldn't get this answer from his program. He was actually getting \\(2147483647\\) over and over again.
 
-If you feel that number is special in some way, you'd be right. The aforementioned number he keeps getting as an answer is actually the _maximum value for an int_ in Java. This means that my friend's program was working, but overflowing the variable holding the result. I noticed this and assumed he just needed more space, so I suggested changing to a double or a long. However, even I had neglected to think about their maximum values, and how large \\(1000^{1248}\\) is. We realized, after some trials, I decided that maybe I should try writing the program in Python, simply because who knows what it will do without type safety. I was pleasantly surprised that it worked, and very quickly at that. Java doesn't have a primitice data type capable of storing that large of a number (emphasis on _primitive_).
+If you feel like that number is special in some way, you'd be right. The aforementioned number he keeps getting as an answer is actually the _maximum value for an int_ in Java. This means that my friend's program was working, but overflowing the variable holding the result. I noticed this and assumed he just needed more space, so I suggested changing to a double or a long. However, even I had neglected to think about their maximum values, and how large \\(1000^{1248}\\) is. We realized, after some trials, I decided that maybe I should try writing the program in Python, simply because who knows what it will do without type safety. I was pleasantly surprised that it worked, and very quickly at that. Java doesn't have a primitice data type capable of storing that large of a number (emphasis on _primitive_).
 
 The reason I even wanted to write about this is that I thoroughly enjoyed the process of helping my friend, and it was fun to figure out what the issue was, amongst the mountain of more difficult work I had to do during Spring 2021.
