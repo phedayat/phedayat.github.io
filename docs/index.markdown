@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div style="display: inline-block">
-    <span style="float: left; width: 70%;">
+    <span style="float: left; width: 60%;">
         <p>Hello! My name's Parsia</p>
         <p>
             I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
