@@ -1,0 +1,15 @@
+---
+layout: post
+title: This is a new post, huh?
+date: 2021-09-15
+---
+
+Yeah so we've created a new post.
+
+Let's understand this table in particular
+
+| x | y | z |
+|---|---|---|
+| 1 | 0 | 0 |
+| 0 | 1 | 0 |
+| 0 | 0 | 1 | 
