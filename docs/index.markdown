@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 
-<div style="display: inline-block">
+<div>
     <p>Hello! My name's Parsia</p>
     <p>This is me!</p>
     <span style="float: right; text-align: center;">
