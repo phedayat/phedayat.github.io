@@ -4,15 +4,14 @@ title: This is a new post, huh?
 date: 2021-09-15
 ---
 
-Yeah so we've created a new post.
+I finally created my personal site! Only took me 2 years to finally do it.
 
-Let's understand this table in particular
+I'm proud of having anything to put on the site in general. I'll start filling out this blog more later. I have some things to write about, maybe I'll do a survey of the things I'm working on. Part of the reason I like the idea of maintaining this blog is that I need to get over not being able to talk about myself.
 
-| x | y | z |
-|---|---|---|
-| 1 | 0 | 0 |
-| 0 | 1 | 0 |
-| 0 | 0 | 1 | 
+Obviously the site is made with Github Pages through Jekyll, but I had so many issues _setting it up_ on my machine, that I resorted to more drastic measures. I'm maintaining the site (i.e. updating, adding, removing content and layout) through a private repl hosted on [Replit](https://replit.com). I'm pleasantly surprised that it _worked_. Here's the current process for updating the site:
+ 1. Content
+ 2. Head into the repl and update/add the content
+ 3. Use Replit's version control feature to update my corresponding private Github repo
+ 4. The site is updated automatically through Github actions, all set up by Github Pages
 
-What's the date of creation?
-<i>{{ date }}</i>
+The fact that all of this works is beyond me, but I'm not complaining. Do you like the Minima theme? I know it's "stock", but it looks good.
