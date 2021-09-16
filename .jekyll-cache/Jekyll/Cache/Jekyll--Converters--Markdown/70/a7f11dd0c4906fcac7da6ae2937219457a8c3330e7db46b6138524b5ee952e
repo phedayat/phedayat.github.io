@@ -1,0 +1,18 @@
+I"�<h1 class="page-heading">Projects</h1>
+
+<h4 id="cookie-clicker-bot"><em>Cookie Clicker Bot</em></h4>
+<h5 id="visit-the-repo"><a href="https://github.com/phedayat/sel_cookie">Visit the repo</a></h5>
+
+<p>Using Selenium in Python, I created a bot that plays the game <a href="https://orteil.dashnet.org/cookieclicker/">“Cookie Clicker”</a>. It begins by receiving 1000 clicks immediately. Each click from the script is referred to as a “rapid click”. After the inital clicks, jobs for purchasing upgrades and products are scheduled. In regular intervals, they buy whatever upgrades and products they can given the cookies we have. A small GUI also appears that allows you to begin an arbitrary amount of rapid clicks or quit the bot.</p>
+
+<p>I’ve been able to get this bot to work out of a repl to some degree of success.</p>
+
+<hr />
+<p><br /></p>
+<h4 id="star-generator"><em>Star Generator</em></h4>
+<h5 id="visit-the-repo-1"><a href="https://github.com/phedayat/python-scripts/blob/master/turt.py">Visit the repo</a></h5>
+
+<p>Built using Python with Turtle, I wrote a script that generates stars of <code class="language-plaintext highlighter-rouge">n</code> vertices repeatedly. Basically it draws stacked stars. The stars are drawn using simple geometric formulas for regular polygons. They direct what the turtle does for any <code class="language-plaintext highlighter-rouge">n</code>-sided polygon.</p>
+
+<p>The script is easily runnable through a repl, and in fact the first mockup was made there.</p>
+:ET
