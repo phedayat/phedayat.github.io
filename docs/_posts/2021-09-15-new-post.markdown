@@ -15,3 +15,5 @@ Obviously the site is made with Github Pages through Jekyll, but I had so many i
  4. The site is updated automatically through Github actions, all set up by Github Pages
 
 The fact that all of this works is beyond me, but I'm not complaining. Do you like the Minima theme? I know it's "stock", but it looks good.
+
+After many hours of working on the site, I've reached a point where editing is very streamlined and I know exactly where to look if I want to change something. I even added the little LinkedIn logo to the footer, using an SVG I found. All in all, very pleased with how this turned out. Looking forward to keeping it updated.
