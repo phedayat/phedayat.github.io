@@ -3,6 +3,7 @@ layout: page
 title: Extracurriculars
 permalink: /extra/
 ---
+<h1 class="page-heading">Extracurriculars</h1>
 
 <h4 class="page-heading">Society of Undergraduate Mathematics Students (SUMS)</h4>
 
