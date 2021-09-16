@@ -21,5 +21,3 @@ title: Home
         <h6>Me, circa 2019</h6>
     </span>
 </div>
-
-<p style="color: red;">Another thing?<p>
