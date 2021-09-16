@@ -9,6 +9,7 @@ Towards the end of Spring 2021, a friend of mine messages me saying he has a que
 
 What is the Fermat primality test and why didn't my friend's script work?
 
-The Fermat primality test is a method of checking whether an integer is a prime number or not (i.e. the only divisors of that integer are 1 and itself). It works by checking the following condition:
+The Fermat primality test is a method of checking whether an integer is a prime number or not (i.e. the only divisors of that integer are 1 and itself). The formal definition is as follows: Let \\(p\\) be an integer and \\(a\\) an integer that does not divide \\(p\\). Then \\(p\\) is prime if and only if
 
-$$\varepsilon$$
+$$a^{p-1} \equiv 1$$
+
