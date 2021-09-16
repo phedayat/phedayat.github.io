@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Blog
 permalink: /blog/
 ---
 
-PARSIA HEDAYAT - 20202020
+This is text that'll show up before my posts.

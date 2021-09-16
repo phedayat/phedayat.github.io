@@ -13,3 +13,6 @@ Let's understand this table in particular
 | 1 | 0 | 0 |
 | 0 | 1 | 0 |
 | 0 | 0 | 1 | 
+
+What's the date of creation?
+<i>{{ date }}</i>
