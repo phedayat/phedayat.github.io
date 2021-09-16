@@ -5,7 +5,7 @@ date: 2021-09-16
 math: True
 ---
 
-Towards the end of Spring 2021, a friend of mine messages me saying he has a question. He's taking an alegbra class that I had taken Winter 2020, and he's trying to write a program for the Fermat primality test. Unfortunately, he's getting garbage answers, which he knows by checking the answer in WolframAlpha.
+Towards the end of Spring 2021, a friend of mine messages me saying he has a question. He's taking a second course in modern alegbra class that I had taken Winter 2020, and he's trying to write a program for the Fermat primality test. Unfortunately, he's getting garbage answers, which he knows by checking the answer in WolframAlpha.
 
 What is the Fermat primality test and why didn't my friend's program work?
 
