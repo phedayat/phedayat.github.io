@@ -22,3 +22,20 @@ I've been able to get this bot to work out of a repl to some degree of success.
 Built using Python with Turtle, I wrote a script that generates stars of `n` vertices repeatedly. Basically it draws stacked stars. The stars are drawn using simple geometric formulas for regular polygons. They direct what the turtle does for any `n`-sided polygon.
 
 The script is easily runnable through a repl, and in fact the first mockup was made there.
+
+---
+<br>
+#### _SUMS Attendance Data Visualization_
+##### [Visit the repo](https://github.com/phedayat/SUMS-Data)
+
+Early in my SUMS publicity duties, I started learning Python again (since the last time I tried it in 2013) and used it to create a graph from SUMS publicity data. I used the sign-in sheet from each event we held during the 2018-2019 academic year as a reference. I created a simple plot that shows the trend in attendance across the different events. I used `pandas` for importing the CSV and parsing it, and `matplotlib` for creating the visual.
+
+---
+<br>
+#### _Convex Hull Visual (Graham scan)_
+##### [Visit the repo]()
+
+Using Python and Turtle, I created a visual for performing a Graham scan and finding the convex hull of a set of points. It draws out the convex hull, defining the edge of the set of points. 
+
+---
+<br>
