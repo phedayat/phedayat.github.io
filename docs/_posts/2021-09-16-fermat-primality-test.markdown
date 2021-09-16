@@ -4,7 +4,7 @@ title: Programming is Fun
 date: 2021-09-16
 math: True
 ---
-<h2 style="color: red;">WARNING: Removing this post soon.</h2>
+<h2 style="color: red; text-align: center;">WARNING: Removing this post soon.</h2>
 
 A fun little issue I dealt with towards the end of Spring 2021: a friend of mine is writing a program for the Fermat primality test. Unforunately, it's not working correctly.
 
