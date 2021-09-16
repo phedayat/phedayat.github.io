@@ -29,7 +29,7 @@ twitter_username: hedayatparsia
 github_username:  phedayat
 
 # Build settings
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
 
