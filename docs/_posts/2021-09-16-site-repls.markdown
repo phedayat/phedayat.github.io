@@ -11,6 +11,7 @@ What's Replit and why are we using it?
 [Replit](https://replit.com) is a site that hosts "collaborative in-browser IDEs" (right from their website). They have a _lot_ of different preloaded languages you can choose to make a repl for. Repl stands for Read-Eval-Print-Loop. Think about when you type `python` into Terminal and get an interactive Python terminal. That's a repl. We'll be using Replit to host our editing environment.
 
 To explain more, consider the tech stack we're going to use.
+
     * GitHub Pages
     * Jekyll
     * Replit
