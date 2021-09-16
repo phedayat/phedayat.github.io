@@ -3,8 +3,8 @@ layout: page
 title: Home
 ---
 
-<div style="display: inline">
-    <span style="float: left;">
+<div style="display: inline-block">
+    <span style="float: left; width: 20%;">
         <p>Hello! My name's Parsia</p>
         <p>
             I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
@@ -12,9 +12,9 @@ title: Home
             software engineering, machine learning, and data engineering/science/analytics.
         </p>
     </span>
-    <span style="float: right; text-align: center;">
-        <h6>Hey, it's me!</h6>
+    <span style="float: right; text-align: center; width: 80%;">
         <img style="object-fit: cover;" height=240 width=120 src="/assets/Head_shot_avatar.jpg">
+        <h6>Me, circ. 2019</h6>
     </span>
 </div>
 
