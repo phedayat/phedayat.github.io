@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Using Replit to manage a Github Pages site
+title: Using Replit to manage a GitHub Pages site
 date: 2021-09-16
 ---
 
-Let's talk about maintaining a Github Pages site through a repl hosted on Replit.
+Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit.
 
 What's Replit and why are we using it?
 
@@ -31,11 +31,11 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
 4. In the same repl shell, run: `mkdir docs; cd docs`
 5. In the same repl shell, run:
     `bundle exec jekyll new .`
-6. Create a new Github repository and once it loads, select "Connect to Github". Enter a name
+6. Create a new GitHub repository and once it loads, select "Connect to GitHub". Enter a name
     and select visibility. Confirm the repo was created.
 7. Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
     branch contains the `docs` directory.
 8. I would highly suggest selecting the option "Enforce HTTPS"
 9. Refresh the page and head to your site when it says it's published
 
-That's it for setting up the boilerplate site through Jekyll and Github Pages.
+That's it for setting up the boilerplate site through Jekyll and GitHub Pages.
