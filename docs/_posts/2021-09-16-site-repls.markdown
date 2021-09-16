@@ -20,22 +20,36 @@ GitHub Pages will host the site itself, creating a URL for it and giving it a pl
 
 How do we set this up? It's nice to know what we need, but what do we do? There's actually a specific order to doing this, so bear with me.
 
-1. Make an account with [Replit]() and create a new repl from template `Ruby`.
-    This will open an in-browser IDE environment. Take some time to get familiar with it.
-2. Using Replit's package manager (the cube in the left sidebar), search for and install `Jekyll`. 
-    This will be used to build the site. Wait for the installation to finish. 
-    and select visibility. Confirm the repo was created.
-3. Go into the repl Shell (_not_ the console), make sure you're in your root directory (the name of your 
-    project), and type the following command:
-    `bundle`
-4. In the same repl shell, run: `mkdir docs; cd docs`
-5. In the same repl shell, run:
-    `bundle exec jekyll new .`
-6. Create a new GitHub repository and once it loads, select "Connect to GitHub". Enter a name
-    and select visibility. Confirm the repo was created.
-7. Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
-    branch contains the `docs` directory.
-8. I would highly suggest selecting the option "Enforce HTTPS"
-9. Refresh the page and head to your site when it says it's published
+<ol>
+    <li>
+        Make an account with [Replit]() and create a new repl from template `Ruby`.
+        This will open an in-browser IDE environment. Take some time to get familiar with it.
+    </li>
+    <li>
+        Using Replit's package manager (the cube in the left sidebar), search for and install `Jekyll`. 
+        This will be used to build the site. Wait for the installation to finish. 
+        and select visibility. Confirm the repo was created.
+    </li>
+    <li>
+        Go into the repl Shell (_not_ the console), make sure you're in your root directory (the name of your 
+        project), and type the following command:
+        `bundle`
+    </li>
+    <li>In the same repl shell, run: `mkdir docs; cd docs`</li>
+    <li>
+        In the same repl shell, run:
+        `bundle exec jekyll new .`
+    </li>
+    <li>
+        Create a new GitHub repository and once it loads, select "Connect to GitHub". Enter a name
+        and select visibility. Confirm the repo was created.
+    </li>
+    <li>
+        Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
+        branch contains the `docs` directory.
+    </li>
+    <li>I would highly suggest selecting the option "Enforce HTTPS"</li>
+    <li>Refresh the page and head to your site when it says it's published</li>
+</ol>
 
 That's it for setting up the boilerplate site through Jekyll and GitHub Pages.
