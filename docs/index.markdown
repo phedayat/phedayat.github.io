@@ -17,7 +17,7 @@ title: Home
         </p>
     </span>
     <span style="float: right; text-align: center; width: 30%;">
-        <img style="object-fit: cover;" height=240 width=120 src="/assets/Head_shot_avatar.jpg">
+        <img style="object-fit: cover;" height=240 width=220 src="/assets/Head_shot_avatar.jpg">
         <h6>Me, circa 2019</h6>
     </span>
 </div>
