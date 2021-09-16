@@ -6,5 +6,3 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
-
-This is text that'll show up before my posts.
