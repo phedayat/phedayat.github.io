@@ -22,7 +22,6 @@ GitHub Pages will host the site itself, creating a URL for it and giving it a pl
 
 How do we set this up? It's nice to know what we need, but what do we do? There's actually a specific order to doing this, so bear with me.
 
-<div>
 <ol>
     <li markdown="1">
         Make an account with Replit and create a new repl from the template `Ruby`.
