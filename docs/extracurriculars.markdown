@@ -7,7 +7,7 @@ permalink: /extra/
 
 <div>
     <span style="line-height: 50%">
-        <h4 class="page-heading">Society of Undergraduate Mathematics Students (SUMS)</h4>
+        <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
         <h5>October 2018 - Present</h5>
     </span>
 
@@ -22,7 +22,7 @@ permalink: /extra/
 <br>
 <div>
     <span style="line-height: 50%">
-        <h4 class="page-heading">Google Higher Education Summer Learning Challenge</h4>
+        <h4 class="page-heading"><i>Google Higher Education Summer Learning Challenge</i></h4>
         <h5>July 2021 - September 2021</h5>
     </span>
 
@@ -60,7 +60,7 @@ permalink: /extra/
 <br>
 <div>
     <span style="line-height: 50%">
-        <h4 class="page-heading">OpenSource@UCSD: Leetles' Advanced Calendar</h4>
+        <h4 class="page-heading"><i>OpenSource@UCSD: Leetles' Advanced Calendar</i></h4>
         <h5>February 2021 - March 2021</h5>
     </span>
 
@@ -79,7 +79,7 @@ permalink: /extra/
 <br>
 <div>
     <span style="line-height: 50%">
-        <h4 class="page-heading">Triton Unmanned Aerial Systems (TUAS)</h4>
+        <h4 class="page-heading"><i>Triton Unmanned Aerial Systems (TUAS)</i></h4>
         <h5>November 2019 - February 2020</h5>
     </span>
     
