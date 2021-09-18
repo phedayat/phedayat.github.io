@@ -77,7 +77,7 @@ permalink: /extra/
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">Triton Unmanned Aerial Systems (TUAS)</h4>
-        <h6>November 2019 - February 2020</h6>
+        <h5>November 2019 - February 2020</h5>
     </span>
     
     <p>
