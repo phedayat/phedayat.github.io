@@ -19,6 +19,7 @@ permalink: /extra/
     </p>
 </div>
 <hr>
+<br>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">Google Higher Education Summer Learning Challenge</h4>
@@ -56,6 +57,7 @@ permalink: /extra/
     </p>
 </div>
 <hr>
+<br>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">OpenSource@UCSD: Leetles' Advanced Calendar</h4>
@@ -74,6 +76,7 @@ permalink: /extra/
     <p><a href="/projects">Read more about the project stack</a></p>
 </div>
 <hr>
+<br>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">Triton Unmanned Aerial Systems (TUAS)</h4>
