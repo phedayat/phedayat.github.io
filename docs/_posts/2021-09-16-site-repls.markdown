@@ -24,7 +24,7 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
 
 <ol>
     <li>
-        Make an account with Replit and create a new repl from the template <span markdown="1">`Ruby`<span>.
+        Make an account with Replit and create a new repl from the template <span markdown="1">`Ruby`</span>.
         This will open an in-browser IDE environment. Take some time to get familiar with it.
     </li>
     <li>
@@ -37,7 +37,7 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
         Confirm the repo was created.
     </li>
     <li>
-        Go into the repl Shell (_not_ the console), make sure you're in your root directory (the name of your 
+        Go into the repl Shell (<span markdown="1">_not_</span> the console), make sure you're in your root directory (the name of your 
         project), and type the following command:
         <span markdown="1">`bundle`</span>
     </li>
@@ -89,3 +89,5 @@ Try it with the new layout files we moved into our project, making a small chang
 ### Remarks
 
 While this isn't the ideal way to run the site, I've found that it works quite well without having to do everything on my local machine. While it would help to be able to use `jekyll serve` within the repl (you can't, or at least not easily), we're initially fine updating the site and viewing the changes in the deployed version.
+
+An additional remark: through this post in particular, I learned that when trying to write inline Markdown within an HTML block, it doesn't work. Everything is rendered exactly. So, as a fix since we're using Kramdown markdown rendering, we can surround the Markdown with `<span markdown="1"></span>` for it to render. In general, if you have a block of Markdown to render in an HTML block, passing `markdown="1"` will tell Kramdown to render it.
