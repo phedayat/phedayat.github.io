@@ -53,7 +53,7 @@ permalink: /extra/
                 
             </ul>
         
-        <a href="/skills/">From the specialization, I earned 5 certifications.</a>
+        From the specialization, I earned 5 certifications, which are listed on my <a href="/skills/">Skills</a> page
     </p>
 </div>
 <hr>
