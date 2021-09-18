@@ -8,7 +8,7 @@ Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit
 
 ### What's Replit and why are we using it?
 
-[Replit](https://replit.com) is a site that hosts "collaborative in-browser IDEs" (right from their website). They have a _lot_ of different preloaded languages you can choose to make a repl for. Repl stands for Read-Eval-Print-Loop. Think about when you type `python` into Terminal and get an interactive Python terminal. That's a repl. We'll be using Replit to host our editing environment.
+[Replit](https://replit.com) is a site that hosts collaborative in-browser IDEs. They have a _lot_ of different preloaded languages you can choose to make a repl for. Repl stands for Read-Eval-Print-Loop. Think about when you type `python` into Terminal and get an interactive Python terminal. That's a repl. We'll be using Replit to host our editing environment.
 
 To explain more, consider the tech stack we're going to use.
 * GitHub Pages
@@ -16,7 +16,7 @@ To explain more, consider the tech stack we're going to use.
 * Replit
 * Markdown, Basic HTML/CSS
 
-GitHub Pages will host the site itself, creating a URL for it and giving it a place to live. Jekyll will be used to incorporate the Ruby Gem infrastructure, making it easier to create custom content for the site (this is not a plug for Jekyll). Replit will be used to host the environment we edit the site in. I encountered a lot of errors and setbacks trying to set up my environment on my local machine. I eventually gave up and decided to use a repl, to avoid the problems I was having with Ruby and Jekyll. Markdown and HTML/CSS will be used for the actual content and layout of the site.
+GitHub Pages will host the site itself, creating a URL for it and giving it a place to live. Jekyll will be used to incorporate the Ruby Gem infrastructure, making it easier to create custom content for the site. Replit will be used to host the environment we edit the site in. Markdown and HTML/CSS will be used for the actual content and layout of the site.
 
 ### Setup
 
