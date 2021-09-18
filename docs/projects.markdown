@@ -6,7 +6,33 @@ permalink: /projects/
 
 <h1 class="page-heading">Projects</h1>
 
+#### _Personal Site_
+##### No public repo available
 
+You're already using this project! After two and a half years, I've finally built my personal site. The development didn't take that long, I just didn't do it. I hope you're enjoying the experience. Read about [how to set up a site similar to this](/2021/09/16/site-repls.html). You can also read about [my thoughts on this and how I've set it up](/2021/09/15/new-post.html).
+
+---
+<br>
+#### _Leetles' Advanced Calendar_
+##### [Visit the repo](https://github.com/os-ucsd/leetles)
+
+From February 2021 to March 2021, I worked with 3 other UCSD students to create a small open source project based around the theme of "Productivity tools in the Pandemic". We built a prototype "Advanced Calendar" which would allow a user to manage their classes and projects without having to clutter a single calendar.
+
+We used Google Calendar and its API to run everything in the backend. I wrote JavaScript classes to handle using the API and user authentication. The whole project was written in vanilla HTML/CSS/JavaScript.
+
+Read more about [my involvement in the project](/extracurriculars/).
+
+---
+<br>
+#### _Expenses_
+##### No public repo available
+
+I recently moved back to La Jolla for my final year of undergrad, so I wanted a way to track my expenses. I used Google Sheets as a way of managing the expenses across several spreadsheets. Each one contains a table with some metrics off to the side. 
+
+I built a premilinary Python class to interface with the sheet, using the Google Sheets and Drive APIs. I used Swift to build a small GUI to use on my desktop. Within it, I used PythonKit to allow Swift to use the class I wrote in Python. Currently, it's able to add a row to whichever spreadsheet the expense belongs to by taking input from the desktop app.
+
+---
+<br>
 #### _Cookie Clicker Bot_
 ##### [Visit the repo](https://github.com/phedayat/sel_cookie)
 
@@ -35,7 +61,4 @@ Early in my SUMS publicity duties, I started learning Python again (since the la
 #### _Convex Hull Visualization (Graham scan)_
 ##### [Visit the repo](https://github.com/phedayat/python-scripts/tree/master/convex-hull-alg)
 
-Using Python and Turtle, I created a visual for performing a Graham scan and finding the convex hull of a set of points. It draws out the convex hull, defining the edge of the set of points. 
-
----
-<br>
+Using Python and Turtle, I created a visual for performing a Graham scan and finding the convex hull of a set of points. It draws out the convex hull, defining the edge of the set of points.
