@@ -18,7 +18,7 @@ permalink: /extra/
         In June 2021, I was elected to Vice President External, along with continuing my position as Publicity Chair. In this role, I'm the spokesperson for SUMS. I reach out and interact with other student organizations to set up cross-org events and facilitate the interaction between our organization and the rest of campus.
     </p>
 </div>
----
+<hr>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">Google Higher Education Summer Learning Challenge</h4>
@@ -55,7 +55,7 @@ permalink: /extra/
         <a href="/skills/">From the specialization, I earned 5 certifications.</a>
     </p>
 </div>
----
+<hr>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">OpenSource@UCSD: Leetles' Advanced Calendar</h4>
@@ -73,7 +73,7 @@ permalink: /extra/
     </p>
     <p><a href="/projects">Read more about the project stack</a></p>
 </div>
----
+<hr>
 <div>
     <span style="line-height: 50%">
         <h4 class="page-heading">Triton Unmanned Aerial Systems (TUAS)</h4>
