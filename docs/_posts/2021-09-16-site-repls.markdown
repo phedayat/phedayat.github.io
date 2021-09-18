@@ -23,12 +23,12 @@ GitHub Pages will host the site itself, creating a URL for it and giving it a pl
 How do we set this up? It's nice to know what we need, but what do we do? There's actually a specific order to doing this, so bear with me.
 
 <ol>
-    <li markdown="1">
-        Make an account with Replit and create a new repl from the template `Ruby`.
+    <li>
+        Make an account with Replit and create a new repl from the template <span markdown="1">`Ruby`<span>.
         This will open an in-browser IDE environment. Take some time to get familiar with it.
     </li>
     <li>
-        Using Replit's package manager (the cube in the left sidebar), search for and install {{`Jekyll` | markdownify }}. 
+        Using Replit's package manager (the cube in the left sidebar), search for and install <span markdown="1">`Jekyll`</span>. 
         This will be used to build the site. Wait for the installation to finish.
     </li>
     <li>
@@ -39,14 +39,14 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
     <li>
         Go into the repl Shell (_not_ the console), make sure you're in your root directory (the name of your 
         project), and type the following command:
-        `bundle`
+        <span markdown="1">`bundle`</span>
     </li>
     <li>
-        In the same repl shell, run: `mkdir docs; cd docs`
+        In the same repl shell, run: <span markdown="1">`mkdir docs; cd docs`</span>
     </li>
     <li>
         In the same repl shell, run:
-        `bundle exec jekyll new .`
+        <span markdown="1">`bundle exec jekyll new .`</span>
     </li>
     <li>
         Create a new GitHub repository and once it loads, select "Connect to GitHub". Enter a name
@@ -54,7 +54,7 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
     </li>
     <li>
         Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
-        branch contains the `docs` directory.
+        branch contains the <span markdown="1">`docs`</span> directory.
     </li>
     <li>
         I would highly suggest selecting the option "Enforce HTTPS"
