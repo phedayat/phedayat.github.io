@@ -11,6 +11,7 @@ permalink: /skills/
         <p>No expiration</p>
         <a href="https://www.coursera.org/account/accomplishments/certificate/7KJX2XAAVSKG">View Certification</a>
     </span>
+    <br>
 </div>
 <hr>
 <br>
@@ -21,6 +22,7 @@ permalink: /skills/
         <p>No expiration</p>
         <a href="https://www.coursera.org/account/accomplishments/certificate/BKRETJE7E5PG">View Certification</a>
     </span>
+    <br>
 </div>
 <hr>
 <br>
@@ -31,6 +33,7 @@ permalink: /skills/
         <p>No expiration</p>
         <a href="https://www.coursera.org/account/accomplishments/certificate/BF3UF4AF3GJU">View Certification</a>
     </span>
+    <br>
 </div>
 <hr>
 <br>
@@ -41,6 +44,7 @@ permalink: /skills/
         <p>No expiration</p>
         <a href="https://www.coursera.org/account/accomplishments/certificate/PQQZ7ESSPU2B">View Certification</a>
     </span>
+    <br>
 </div>
 <hr>
 <br>
@@ -51,4 +55,5 @@ permalink: /skills/
         <p>No expiration</p>
         <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/U33J7567R3BL">View Certification</a>
     </span>
+    <br>
 </div>
