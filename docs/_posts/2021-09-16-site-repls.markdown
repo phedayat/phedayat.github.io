@@ -22,13 +22,14 @@ GitHub Pages will host the site itself, creating a URL for it and giving it a pl
 
 How do we set this up? It's nice to know what we need, but what do we do? There's actually a specific order to doing this, so bear with me.
 
-<ol markdown="1">
+<div>
+<ol>
     <li>
-        Make an account with Replit and create a new repl from the template `Ruby`.
+        Make an account with Replit and create a new repl from the template {{`Ruby` | markdownify}}.
         This will open an in-browser IDE environment. Take some time to get familiar with it.
     </li>
     <li>
-        Using Replit's package manager (the cube in the left sidebar), search for and install `Jekyll`. 
+        Using Replit's package manager (the cube in the left sidebar), search for and install {{`Jekyll` | markdownify }}. 
         This will be used to build the site. Wait for the installation to finish.
     </li>
     <li>
