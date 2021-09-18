@@ -24,8 +24,8 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
 
 <div>
 <ol>
-    <li>
-        Make an account with Replit and create a new repl from the template {{`Ruby` | markdownify}}.
+    <li markdown="1">
+        Make an account with Replit and create a new repl from the template `Ruby`.
         This will open an in-browser IDE environment. Take some time to get familiar with it.
     </li>
     <li>
