@@ -12,7 +12,7 @@ title: Home
             software engineering, machine learning, and data engineering/science/analytics.
         </p>
         <p>
-            I'm currently a Data Engineer Intern @ Integral Ad Science. I've worked there for 3 months so far, for a Summer Internship, and will be continuing with them for another 3 months for a Fall Internship.
+            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>. I've worked there for 3 months for a Summer Internship, and will be continuing with them for another 3 months for a Fall Internship.
 
             The project I worked on during the Summer, and will continue in the Fall, relates to web scraping.
         </p>
