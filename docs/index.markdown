@@ -12,14 +12,18 @@ title: Home
             software engineering, machine learning, and data engineering/science/analytics.
         </p>
         <p>
-            I'm currently the Vice President External (since 2021) and Publicity Chair (since 2019) of the <a href="https://sums.ucsd.edu">Society of Undergraduate Mathematics Students (SUMS)</a>. In this organization, we promote everything math! Whether you're a math enthusiast or a mathematician, you'll find a home with us.
+            I'm currently a Data Engineer Intern @ Integral Ad Science. I've worked there for 3 months so far, for a Summer Internship, and will be continuing with them for another 3 months for a Fall Internship.
+
+            The project I worked on during the Summer, and will continue in the Fall, relates to web scraping.
         </p>
+        <!-- <p>
+            I'm currently the Vice President External (since 2021) and Publicity Chair (since 2019) of the <a href="https://sums.ucsd.edu">Society of Undergraduate Mathematics Students (SUMS)</a>. In this organization, we promote everything math! Whether you're a math enthusiast or a mathematician, you'll find a home with us.
+        </p> -->
         <p>
             In February 2021, <a href="https://sums.ucsd.edu/talks.html#differential-geometry-lite-with-mathematica-by-parsia-hedayat">I gave a talk on the basics of Differential Geometry (DG)</a>, using visualizations I put together in Mathematica. In the talk, I very broadly covered what DG is and where/why it's used. I presented simple examples that would excite the novice mathematician, like how informative the Frenet Frame is when traversing along a <a href="https://en.wikipedia.org/wiki/Helix">circular helix</a>. 
         </p>
         <p>
-            Check out my <a href="/projects">projects page</a> to see what I'm working on and proud of!
-            Check out my <a href="/blog">blog</a>!
+            As I plan for my post-graduate future, feel free to message me!
         </p>
     </span>
     <span style="float: right; width: 30%;">
