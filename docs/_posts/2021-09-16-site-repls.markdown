@@ -84,7 +84,7 @@ Once all the layout files have been copied over, make a small change to see if i
 3. Confirm the changes are successful by monitoring the commit and waiting for the green checkmark
 4. Visit the URL in the "Pages" setting of your repo to confirm that the changes are made. It may take some time for the changes to appear, so refresh the page if they don't show up immediately.
 
-Try it with the new layout files we moved into our project, making a small change like adding a `<p>` tag.
+Try it with the new layout files we moved into our project, making a small change like adding a `<p></p>` tag.
 
 ### Remarks
 
