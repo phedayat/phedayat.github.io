@@ -27,7 +27,7 @@ permalink: /extra/
     </span>
 
     <p>
-        In this program, I was enrolled in the Data Analyst track and completed a total of 48 Google Qwiklabs skill badges, 5 Gogole Qwiklabs quests, and a Coursera specialization.
+        In this program, I was enrolled in the Data Analyst track and completed a total of 48 Google Qwiklabs skill badges, 5 Google Qwiklabs quests, and a Coursera specialization.
         <br>
         <br>
         For brevity, I'll only list the quests and specialization:

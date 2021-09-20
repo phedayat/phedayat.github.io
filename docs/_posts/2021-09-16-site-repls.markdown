@@ -49,10 +49,6 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
         <span markdown="1">`bundle exec jekyll new .`</span>
     </li>
     <li>
-        Create a new GitHub repository and once it loads, select "Connect to GitHub". Enter a name
-        and select visibility. Confirm the repo was created.
-    </li>
-    <li>
         Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
         branch contains the <span markdown="1">`docs`</span> directory.
     </li>
@@ -68,13 +64,13 @@ That's it for setting up the boilerplate site through Jekyll and GitHub Pages. N
 
 ### Site Design and Layout
 
-One of the highlights of using Jekyll is that it can use gem-based plugins and themes. The default theme is "Minima" (at the time of writing, that's the theme being used on my site). Without going into too much detail, Jekyll uses "layouts" to construct your website. Think of them as template HTML files for different entities that can exist on your site. To edit the layouts for our theme, we'll need to copy the files from our theme and store them in our site's root directory.
+One of the highlights of using Jekyll is that it can use gem-based plugins and themes. The default theme is "Minima" (at the time of writing, that's the theme being used on my site). Without going into too much detail, Jekyll uses "layouts" to construct your website. Think of them as template HTML files for different entities that can exist on your site. To edit the layouts for our theme, we'll need to copy the files from our theme and store them in `docs`.
 
 All layouts in Jekyll are stored in a directory called `_layouts`. Go to `.bundle/ruby/version_number/gems` and find the folder containing the theme. If for some reason you can't find it, put `gem "theme_name"` in your `Gemfile` and run `bundle` in the shell from your root directory. This should install the theme in your `gems` directory.
 
-Next, we need to copy the directories `_sass`, `_layouts`, and `_includes` into our root directory (`docs`) so we can actually make changes to the HTML and have it appear on the site.
+Next, we need to copy the directories `_sass`, `_layouts`, and `_includes` into `docs` so we can actually make changes to the HTML and have it appear on the site.
 
-Run `cp -R theme_dir/dir .` for each of the three directories in our theme directory. This should move everything from those folders, including the folder itself, into our root directory.
+Run `cp -R theme_dir/dir .` for each of the three directories in our theme directory. This should move everything from those folders, including the folder itself, into `docs`.
 
 ### Validating Through GitHub
 
@@ -90,4 +86,4 @@ Try it with the new layout files we moved into our project, making a small chang
 
 While this isn't the ideal way to run the site, I've found that it works quite well without having to do everything on my local machine. While it would help to be able to use `jekyll serve` within the repl (you can't, or at least not easily), we're initially fine updating the site and viewing the changes in the deployed version.
 
-An additional remark: through this post in particular, I learned that when trying to write inline Markdown within an HTML block, it doesn't work. Everything is rendered exactly. So, as a fix since we're using Kramdown markdown rendering, we can surround the Markdown with `<span markdown="1"></span>` for it to render. In general, if you have a block of Markdown to render in an HTML block, passing `markdown="1"` will tell Kramdown to render it.
+An additional remark: through this post in particular, I learned that when trying to write inline Markdown within an HTML block, it doesn't work. Everything is rendered exactly. So, as a fix since we're using Kramdown Markdown rendering, we can surround the Markdown with `<span markdown="1"></span>` for it to render. In general, if you have a block of Markdown to render in an HTML block, passing `markdown="1"` will tell Kramdown to render it.
