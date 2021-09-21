@@ -4,11 +4,12 @@ title: Skills
 permalink: /skills/
 ---
 
-* Git
-* Python, Java, C++, SQL, HTML/CSS/JavaScript
-* General object-oriented programming and design
-* Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing
+<h1>Skills</h1>
 
+<h5>Git</h5>
+<h5>Python, Java, C++, SQL, HTML/CSS/JavaScript</h5>
+<h5>General object-oriented programming and design</h5>
+<h5>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</h5>
 
 <h3>Certifications</h3>
 <div>
