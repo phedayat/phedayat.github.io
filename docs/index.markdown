@@ -19,9 +19,7 @@ title: Home
         <!-- <p>
             I'm currently the Vice President External (since 2021) and Publicity Chair (since 2019) of the <a href="https://sums.ucsd.edu">Society of Undergraduate Mathematics Students (SUMS)</a>. In this organization, we promote everything math! Whether you're a math enthusiast or a mathematician, you'll find a home with us.
         </p> -->
-        <p>
-            As I plan for my post-graduate future, feel free to message me!
-        </p>
+        <p>As I plan for my post-graduate future, feel free to message me!</p>
     </span>
     <span style="float: right; width: 30%;">
         <!-- <img style="object-fit: cover;" height=240 width=220 src="/assets/Head_shot_avatar.jpg"> -->
