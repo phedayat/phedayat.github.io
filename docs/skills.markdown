@@ -17,7 +17,7 @@ permalink: /skills/
 
 <style>
     .skills_section{
-        line-height: 150%;
+        /* line-height: 150%; */
         font-size: 13pt;
         margin-left: 5%;
     }
