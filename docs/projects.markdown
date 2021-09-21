@@ -20,7 +20,7 @@ From February 2021 to March 2021, I worked with 3 other UCSD students to create 
 
 We used Google Calendar and its API to run everything in the backend. I wrote JavaScript classes to handle using the API and user authentication. The whole project was written in vanilla HTML/CSS/JavaScript.
 
-Read more about [my involvement in the project](/extracurriculars/).
+Read more about [my involvement in the project](/extra/).
 
 ---
 <br>
