@@ -4,16 +4,16 @@ title: Skills
 permalink: /skills/
 ---
 
-# Skills
+<h1>Skills</h1>
 
-## Proficiencies
-#### Using version control software like Git and services like GitHub
-#### Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript
-#### General object-oriented programming and design
-#### Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing
+### Proficiencies
+##### Using version control software like Git and services like GitHub
+##### Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript
+##### General object-oriented programming and design
+##### Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing
 
-## Experiential skills
-#### REDIS
-#### Docker
-#### Amazon Web Services (AWS)
-#### Kafka
+### Experiential skills
+##### REDIS
+##### Docker
+##### Amazon Web Services (AWS)
+##### Kafka
