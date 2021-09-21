@@ -30,7 +30,7 @@ permalink: /skills/
 #### _Proficiencies_
 <div class="skills_section">
     <ul>
-        <li>Using version control software like Git and services like GitHub</li>
+        <li>Git</li>
         <li>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</li>
         <li>General object-oriented programming and design</li>
         <li>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</li>
