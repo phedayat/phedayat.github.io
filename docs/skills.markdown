@@ -28,11 +28,13 @@ permalink: /skills/
 <!-- The main title, for some reason, has to be h2. The subtitles should be h3 or set to a custom size. -->
 
 #### _Proficiencies_
-<div class="skills_section" markdown="1">
-        * Using version control software like Git and services like GitHub
-        * Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript
-        * General object-oriented programming and design
-        * Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing
+<div class="skills_section">
+    <ul>
+        <li>Using version control software like Git and services like GitHub</li>
+        <li>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</li>
+        <li>General object-oriented programming and design</li>
+        <li>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</li>
+    </ul>
 </div>
 
 <!-- Neither size is good enough; we'll have to make everything li tags or something with a specific font size -->
