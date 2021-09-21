@@ -93,3 +93,18 @@ permalink: /extra/
         While my involvement with TUAS was short, I did gain an appreciation and interest in CV because of it.
     </p>
 </div>
+<hr>
+<br>
+<div>
+    <span style="line-height: 50%">
+        <h4 class="page-heading"><i>Lightning Talk: Diffential Geometry Lite</i></h4>
+        <h5>February 2021</h5>
+    </span>
+
+    <p>
+        <a href="https://sums.ucsd.edu/talks.html#differential-geometry-lite-with-mathematica-by-parsia-hedayat">I presented a talk on the basics of Differential Geometry (DG)</a>, using visualizations I put together in Mathematica. In the talk, I very broadly covered what DG is and where/why it's used. I presented simple examples that would excite the novice mathematician, like how informative the Frenet Frame is when traversing along a <a href="https://en.wikipedia.org/wiki/Helix">circular helix</a>.
+        <br>
+        <br>
+        A Lightning Talk is a short presentation meant to briefly introduce a topic or concept in mathematics to an audience. They typically range from thirty minutes to an hour.
+    </p>
+</div>
