@@ -1,31 +1,9 @@
 ---
 layout: page
-title: Skills
-permalink: /skills/
+title: Certifications
+permalink: /certs/
 ---
 
-<h1>Skills</h1>
-
-<div>
-    <h4>Git</h4>
-</div>
-<hr>
-<br>
-<div>
-    <h4>Python, Java, C++, SQL, HTML/CSS/JavaScript</h4>
-</div>
-<hr>
-<br>
-<div>
-    <h4>General object-oriented programming and design</h4>
-</div>
-<hr>
-<br>
-<div>
-    <h4>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</h4>
-</div>
-<hr>
-<br>
 <h3>Certifications</h3>
 <div>
     <h4 class="page-heading">Exploring and Preparing your Data with BigQuery</h4>
