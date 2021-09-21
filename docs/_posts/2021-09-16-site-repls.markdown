@@ -6,7 +6,7 @@ date: 2021-09-16
 
 Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit.
 
-### What's Replit and why are we using it?
+### What's Replit and Why Are We Using It?
 
 [Replit](https://replit.com) is a site that hosts collaborative in-browser IDEs. They have a _lot_ of different preloaded languages you can choose to make a repl for. Repl stands for Read-Eval-Print-Loop. Think about when you type `python` into Terminal and get an interactive Python terminal. That's a repl. We'll be using Replit to host our editing environment.
 
@@ -47,6 +47,9 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
     <li>
         In the same repl shell, run:
         <span markdown="1">`bundle exec jekyll new .`</span>
+    </li>
+    <li>
+        Make sure to commit and push your changes to the repo. Go back into Replit version control and enter in a message to describe what we just did (we created a new default site). Commit & Push.
     </li>
     <li>
         Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
