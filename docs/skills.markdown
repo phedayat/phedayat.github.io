@@ -21,7 +21,7 @@ permalink: /skills/
 <!-- The main title, for some reason, has to be h2. The subtitles should be h3 or set to a custom size. -->
 
 #### _Proficiencies_
-<div style="line-height: 100%; font-size: 15px; margin-left: 78px;">
+<div style="line-height: 100%; font-size: 15px; margin-left: 75px;">
     <p>Using version control software like Git and services like GitHub</p>
     <p>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</p>
     <p>General object-oriented programming and design</p>
