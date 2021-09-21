@@ -18,7 +18,7 @@ permalink: /skills/
 <style>
     .skills_section{
         line-height: 100%;
-        font-size: 15px;
+        font-size: 15pt;
         margin-left: 5%;
     }
 </style>
@@ -29,19 +29,23 @@ permalink: /skills/
 
 #### _Proficiencies_
 <div class="skills_section">
-    <p>Using version control software like Git and services like GitHub</p>
-    <p>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</p>
-    <p>General object-oriented programming and design</p>
-    <p>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</p>
+    <ul>
+        <li>Using version control software like Git and services like GitHub</li>
+        <li>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</li>
+        <li>General object-oriented programming and design</li>
+        <li>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</li>
+    </ul>
 </div>
 
-<!-- Neither size is good enough; we'll have to make everything p tags or something with a specific font size -->
+<!-- Neither size is good enough; we'll have to make everything li tags or something with a specific font size -->
 <!-- Wrap each section in a <div> and set the font size -->
 
 #### _Experiential skills_
 <div class="skills_section">
-    <p>REDIS</p>
-    <p>Docker</p>
-    <p>Amazon Web Services (AWS)</p>
-    <p>Kafka</p>
+    <ul>    
+        <li>REDIS</li>
+        <li>Docker</li>
+        <li>Amazon Web Services (AWS)</li>
+        <li>Kafka</li>
+    </ul>
 </div>
