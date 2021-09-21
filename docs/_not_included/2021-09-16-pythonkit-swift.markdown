@@ -58,4 +58,4 @@ You will be able to access all of its properties and methods.
 
 #### Remarks
 
-I'd like to reiterate that best practices (for neither Swift nor Python) were in mind during the writing of this post. In fact, even I hit the best practices wall while writing code for my project. I'd suggest doing research on both Swift and Python best practices; get used to their individual conventions. PythonKit opens up a lot of new possibilities for devs like myself.
+I'd like to reiterate that best practices (for neither Swift nor Python) were not in mind during the writing of this post. In fact, even I hit the best practices wall while writing code for my project. I'd suggest doing research on both Swift and Python best practices; get used to their individual conventions. PythonKit opens up a lot of new possibilities for devs like myself.
