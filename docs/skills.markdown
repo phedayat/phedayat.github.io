@@ -21,11 +21,11 @@ permalink: /skills/
 <!-- The main title, for some reason, has to be h2. The subtitles should be h3 or set to a custom size. -->
 
 #### _Proficiencies_
-<div style="line-height: 80%; font-size: 15px;">
-    Using version control software like Git and services like GitHub
-    Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript
-    General object-oriented programming and design
-    Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing
+<div style="line-height: 100%; font-size: 15px;">
+    <p>Using version control software like Git and services like GitHub</p>
+    <p>Languages: Python, Java, C++, SQL, HTML/CSS/JavaScript</p>
+    <p>General object-oriented programming and design</p>
+    <p>Google Cloud Platform (GCP), with an emphasis on BigQuery for data analytics and warehousing</p>
 </div>
 <!-- Neither size is good enough; we'll have to make everything p tags or something with a specific font size -->
 <!-- Wrap each section in a <div> and set the font size -->
