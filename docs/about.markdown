@@ -1,0 +1,30 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+<h1>About Me</h1>
+
+I started programming when I was twelve-years-old, close to the end of sixth grade, so 2012. I was taking a typing class and the teacher allowed my classmate to give a presentation on HTML to us. I was absolutely _enamored_. I remember going straight to the computer when I got home to make a "Hello World!" page. It was like actual lightning struck in my life.
+
+From there, I just didn't stop. I was overseas for the first half of that Summer and spent any amount of time I was at the house on my mother's laptop, making websites. I remember using YouTube downloaders to download 240p versions of videos that taught you how to use HTML/CSS/JavaScript. I spent the second half of the Summer with my grandparents, again spending as much time as I could on the computer. I had discovered [codeacademy](https://www.codecademy.com/) and spent my days completing the lessons and challenges for various languages, including JavaScript, Python, and briefly Ruby.
+
+My first major step into the world of computer science and more serious programming was in 2013, when I bought a book on C++. While I wouldn't say I was the smartest middle schooler out there, I certainly had drive. I used to sit and "read" the book, glossing over words like "heap" and "stack", skimming pages and focusing mostly on the examples. While I didn't learn C++ very well by doing that, I was writing code pretty often and getting used to it.
+
+In that same year, I began learning Objective-C and Cocoa programming for creating macOS desktop applications. I vividly remember sitting at my uncle's desk after midnight, when I finally got the text typed into a textfield to display in a label after pressing a button. I actually woke him up from being so excited. I had a YouTube channel as well, and at that point I had begun making more programming-oriented videos. My interest in Cocoa programming and create programming content lasted through 2014, mostly due to Swift.
+
+In 2015-2016, I took my first official course in Java through my high school. After this course, I ended up taking an unintentional hiatus from programming. I returned in 2017 when I was a senior in high school taking AP Computer Science. From then on, I never stopped writing code. Haven't stopped. Probably won't stop.
+
+I'm currently a mathematics-computer science major at UC San Diego, I've taken a plethora of math courses and a handful of CS courses. Relevant coursework includes:
+ * Advanced Data Structures and Algorithms (CSE 100)
+ * Introduction to Numerical Analysis (MATH 170A)
+ * Software Tools and Techniques (Bash and Git) (CSE 30)
+ * Introduction to Mathematical Reasoning (MATH 109)
+ * Applied Linear Algebra (MATH 102)
+
+Some favorite classes of mine at UCSD so far:
+ * Differential Geometry (MATH 150AB)
+ * Topics in Topology: Knot Theory (MATH 191)
+ * Mathematics of Finance (MATH 194)
+ * Vector Calculus (MATH 20E)
