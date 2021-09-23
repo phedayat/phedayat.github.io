@@ -20,7 +20,7 @@ title: Home
             As I plan for my post-graduate future, feel free to message me!
         </p>
         <p>
-            If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/k09zv66e382yh6y/PH_Res_982021.pdf?dl=0">my résumé</a>.
+            If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/zxqziw65aev5gk4/PH_Res_9232021.pdf?dl=0">my résumé</a>.
         </p>
     </span>
     <span style="float: right; width: 30%;">
