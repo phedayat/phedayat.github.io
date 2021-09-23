@@ -12,18 +12,15 @@ title: Home
             software engineering, machine learning, and data engineering/science/analytics.
         </p>
         <p>
-            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>. I've worked there for 3 months for a Summer Internship, and will be continuing with them for another 3 months for a Fall Internship.
+            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>. This is my second internship with them in the same role.
 
             The project I worked on during the Summer, and will continue in the Fall, relates to web scraping.
         </p>
-        <!-- <p>
-            I'm currently the Vice President External (since 2021) and Publicity Chair (since 2019) of the <a href="https://sums.ucsd.edu">Society of Undergraduate Mathematics Students (SUMS)</a>. In this organization, we promote everything math! Whether you're a math enthusiast or a mathematician, you'll find a home with us.
-        </p> -->
         <p>
             As I plan for my post-graduate future, feel free to message me!
         </p>
         <p>
-            If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/k09zv66e382yh6y/PH_Res_982021.pdf?dl=0" download>my résumé</a>.
+            If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/k09zv66e382yh6y/PH_Res_982021.pdf?dl=1" download>my résumé</a>.
         </p>
     </span>
     <span style="float: right; width: 30%;">

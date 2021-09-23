@@ -22,6 +22,8 @@ We used Google Calendar and its API to run everything in the backend. I wrote Ja
 
 Read more about [my involvement in the project](/extra/).
 
+My own offshoot of the idea exists as a less visually appealing lite version of the original Advanced Calendar. It still performs the basic functionality of creating and adding to calendars for specific projects/classes. It also displays upcoming events. It's essentially a fork of the original with less design.
+
 ---
 <br>
 #### _Expenses_
