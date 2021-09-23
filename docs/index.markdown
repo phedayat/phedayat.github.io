@@ -9,8 +9,10 @@ title: Home
         <p>
             I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
             I have an interest in many fields and topics, but the most prevailing are 
-            software engineering, machine learning, and data engineering/science/analytics.
+            software engineering, machine learning, cloud tech, and data engineering/science/analytics.
         </p>
+        <!-- Add another paragraph to highlight who you are as an engineer -->
+        <!-- Passionate, hungry, hardworking, competent, semi-experienced, etc. -->
         <p>
             I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>. This is my second internship with them in the same role.
 
