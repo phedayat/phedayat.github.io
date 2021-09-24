@@ -6,7 +6,7 @@ permalink: /extra/
 <h1 class="page-heading">Extracurriculars</h1>
 
 <div>
-    <span style="line-height: 50%">
+    <span style="line-height: 100%">
         <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
         <h5>October 2018 - Present</h5>
     </span>
