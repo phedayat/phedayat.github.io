@@ -6,10 +6,8 @@ permalink: /extra/
 <h1 class="page-heading">Extracurriculars</h1>
 
 <div>
-    <span style="line-height: 100%">
-        <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
-        <h5>October 2018 - Present</h5>
-    </span>
+    <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
+    <h5>October 2018 - Present</h5>
 
     <p>
         I joined this organization in October 2018, was elected to the Publicity Committee in November 2018, and was elected to Publicity Chair in December 2018. My duties in this position include managing all SUMS social media accounts (Facebook, Instagram, Twitter) and creating content for them. I also handle all in-person publicity, such as putting up fliers.
@@ -21,10 +19,8 @@ permalink: /extra/
 <hr>
 <br>
 <div>
-    <span style="line-height: 50%">
-        <h4 class="page-heading"><i>Google Higher Education Summer Learning Challenge</i></h4>
-        <h5>July 2021 - September 2021</h5>
-    </span>
+    <h4 class="page-heading"><i>Google Higher Education Summer Learning Challenge</i></h4>
+    <h5>July 2021 - September 2021</h5>
 
     <p>
         In this program, I was enrolled in the Data Analyst track and completed a total of 48 Google Qwiklabs skill badges, 5 Google Qwiklabs quests, and a Coursera specialization.
@@ -59,10 +55,8 @@ permalink: /extra/
 <hr>
 <br>
 <div>
-    <span style="line-height: 50%">
-        <h4 class="page-heading"><i>OpenSource@UCSD: Leetles' Advanced Calendar</i></h4>
-        <h5>February 2021 - March 2021</h5>
-    </span>
+    <h4 class="page-heading"><i>OpenSource@UCSD: Leetles' Advanced Calendar</i></h4>
+    <h5>February 2021 - March 2021</h5>
 
     <p> 
         In February 2021, I joined a group of three other UCSD students, through the student organization OS@UCSD, to create a web app around the theme "productivity during the pandemic". We set out to create an "Advanced Calendar" web app that would allow students to better manage their classes and projects across several calendars instead of a single one.
@@ -78,10 +72,8 @@ permalink: /extra/
 <hr>
 <br>
 <div>
-    <span style="line-height: 50%">
-        <h4 class="page-heading"><i>Triton Unmanned Aerial Systems (TUAS)</i></h4>
-        <h5>November 2019 - February 2020</h5>
-    </span>
+    <h4 class="page-heading"><i>Triton Unmanned Aerial Systems (TUAS)</i></h4>
+    <h5>November 2019 - February 2020</h5>
     
     <p>
         TUAS is a student engineering organization focused on building autonomous planes for competition. In particular, the group builds an autonomous plane that is supposed to be able to use computer vision (CV) to recognize objects over a field.
@@ -96,10 +88,8 @@ permalink: /extra/
 <hr>
 <br>
 <div>
-    <span style="line-height: 50%">
-        <h4 class="page-heading"><i>Lightning Talk: Diffential Geometry Lite</i></h4>
-        <h5>February 2021</h5>
-    </span>
+    <h4 class="page-heading"><i>Lightning Talk: Diffential Geometry Lite</i></h4>
+    <h5>February 2021</h5>
 
     <p>
         <a href="https://sums.ucsd.edu/talks.html#differential-geometry-lite-with-mathematica-by-parsia-hedayat">I presented a talk on the basics of Differential Geometry (DG)</a>, using visualizations I put together in Mathematica. In the talk, I very broadly covered what DG is and where/why it's used. I presented simple examples that would excite the novice mathematician, like how informative the Frenet Frame is when traversing along a <a href="https://en.wikipedia.org/wiki/Helix">circular helix</a>.
