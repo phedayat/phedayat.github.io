@@ -8,9 +8,9 @@ permalink: /extra/
 <div>
     <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
     <h5>October 2018 - Present</h5>
+    <p id="user-agent-data-id"></p>
     <script>
-        console.log("Navigator: ");
-        console.log(navigator.userAgentData);
+        document.getElementById("user-agent-data-id").innerHTML = navigator.userAgentData;
     </script>
     <p>
         I joined this organization in October 2018, was elected to the Publicity Committee in November 2018, and was elected to Publicity Chair in December 2018. My duties in this position include managing all SUMS social media accounts (Facebook, Instagram, Twitter) and creating content for them. I also handle all in-person publicity, such as putting up fliers.
