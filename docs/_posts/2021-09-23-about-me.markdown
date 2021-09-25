@@ -25,4 +25,3 @@ Some favorite classes of mine at UCSD so far:
  * Differential Geometry (MATH 150AB)
  * Topics in Topology: Knot Theory (MATH 191)
  * Mathematics of Finance (MATH 194)
- * Vector Calculus (MATH 20E)
