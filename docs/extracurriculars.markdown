@@ -10,7 +10,7 @@ permalink: /extra/
     <h5>October 2018 - Present</h5>
     <script>
         console.log("Navigator: ");
-        console.log(navigator.userAgent);
+        console.log(navigator.userAgentData);
     </script>
     <p>
         I joined this organization in October 2018, was elected to the Publicity Committee in November 2018, and was elected to Publicity Chair in December 2018. My duties in this position include managing all SUMS social media accounts (Facebook, Instagram, Twitter) and creating content for them. I also handle all in-person publicity, such as putting up fliers.
