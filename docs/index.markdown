@@ -9,7 +9,7 @@ title: Home
         <p>
             I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
             I have an interest in many fields and topics, but the most prevailing are 
-            software engineering, machine learning, cloud tech, and data engineering/science/analytics.
+            software engineering, machine learning, cloud tech, mathematics, and data engineering/science/analytics.
         </p>
         <!-- Add another paragraph to highlight who you are as an engineer -->
         <!-- Passionate, hungry, hardworking, competent, semi-experienced, etc. -->
@@ -26,7 +26,6 @@ title: Home
         </p>
     </span>
     <span style="float: right; width: 30%;">
-        <!-- <img style="object-fit: cover;" height=240 width=220 src="/assets/Head_shot_avatar.jpg"> -->
         <img style="object-fit: cover;" height=540 width=420 src="/assets/Head_shot_avatar.jpg">
         <h6 style="text-align: center;">Me, circa 2019</h6>
     </span>
