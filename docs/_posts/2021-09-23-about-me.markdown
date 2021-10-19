@@ -14,7 +14,9 @@ In that same year, I began learning Objective-C and Cocoa programming for creati
 
 In 2015-2016, I took my first official course in Java through my high school. After this course, I ended up taking an unintentional hiatus from programming. I returned in 2017 when I was a senior in high school taking AP Computer Science. From then on, I never stopped writing code. Haven't stopped. Probably won't stop.
 
-I'm currently a mathematics-computer science major at UC San Diego; I've taken a plethora of math courses and a handful of CS courses. Relevant coursework includes:
+I'm currently a mathematics-computer science major at UC San Diego and a data engineer intern at Integral Ad Science; I've taken a plethora of math and CS courses.
+
+Relevant coursework includes:
  * Advanced Data Structures and Algorithms (CSE 100)
  * Introduction to Numerical Analysis (MATH 170A)
  * Software Tools and Techniques (Bash and Git) (CSE 30)
