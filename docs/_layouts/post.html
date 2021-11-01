@@ -12,7 +12,7 @@ layout: default
         
       </time>
       {%- if page.updated -%}
-        <span class="dt-published">({{ page.updated }})</span>
+        <span class="dt-published">(Updated: {{ page.updated | date: date_format }})</span>
       {%- endif -%}
       {%- if page.author -%}
          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
