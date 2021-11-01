@@ -11,12 +11,10 @@ Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit
 [Replit](https://replit.com) is a site that hosts collaborative in-browser IDEs. They have a _lot_ of different preloaded languages you can choose to make a repl for. Repl stands for Read-Eval-Print-Loop. Think about when you type `python` into Terminal and get an interactive Python terminal. That's a repl. We'll be using Replit to host our editing environment.
 
 To explain more, consider the tech stack we're going to use.
-* GitHub Pages
-* Jekyll
-* Replit
-* Markdown, Basic HTML/CSS
-
-GitHub Pages will host the site itself, creating a URL for it and giving it a place to live. Jekyll will be used to incorporate the Ruby Gem infrastructure, making it easier to create custom content for the site. Replit will be used to host the environment we edit the site in. Markdown and HTML/CSS will be used for the actual content and layout of the site.
+* GitHub Pages (for hosting)
+* Jekyll (for themes and plugins)
+* Replit (for hosting our editing environment)
+* Markdown, Basic HTML/CSS (for designing and creating content)
 
 ### Setup
 
@@ -27,37 +25,46 @@ How do we set this up? It's nice to know what we need, but what do we do? There'
         Make an account with Replit and create a new repl from the template <span markdown="1">`Ruby`</span>.
         This will open an in-browser IDE environment. Take some time to get familiar with it.
     </li>
+    <br>
     <li>
         Using Replit's package manager (the cube in the left sidebar), search for and install <span markdown="1">`Jekyll`</span>. 
         This will be used to build the site. Wait for the installation to finish.
     </li>
+    <br>
     <li>
         Head into Replit's version control (the branching node in the left sidebar) and create a new repository. 
         You'll have to connect to your GitHub account. Give the repo the name "username.github.io", where "username" is your username, and select visibility. 
         Confirm the repo was created.
     </li>
+    <br>
     <li>
         Go into the repl Shell (<span markdown="1">_not_</span> the console), make sure you're in your root directory (the name of your 
         project), and type the following command:
         <span markdown="1">`bundle`</span>
     </li>
+    <br>
     <li>
         In the same repl shell, run: <span markdown="1">`mkdir docs; cd docs`</span>
     </li>
+    <br>
     <li>
         In the same repl shell, run:
         <span markdown="1">`bundle exec jekyll new .`</span>
     </li>
+    <br>
     <li>
         Make sure to commit and push your changes to the repo. Go back into Replit version control and enter in a message to describe what we just did (we created a new default site). Commit & Push.
     </li>
+    <br>
     <li>
         Within your repo, go into Settings > Pages and choose a source. You want to choose whichever
         branch contains the <span markdown="1">`docs`</span> directory.
     </li>
+    <br>
     <li>
         I would highly suggest selecting the option "Enforce HTTPS"
     </li>
+    <br>
     <li>
         Refresh the page and head to your site when it says it's published
     </li>

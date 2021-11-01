@@ -4,7 +4,7 @@ title: Using PythonKit to connect your Swift app to an API
 date: 2021-09-20
 ---
 
-I moved about a month ago. In the spirit of getting a new place, I challenged myself to build a tool to help me keep track of my expenses. You can read about the project [here](/projects/). After building the initial prototype, I took it upon myself, as an added challenge, to build a desktop application for it; the point was that the application would make it easy for me to add entries to the Google Sheets in the background. It wasn't long before I realized my limited Swift knowledge and two months of Cocoa programming that I did in 2013 weren't sufficient to deal with the API calls I wanted to make to the Google Sheets API. I needed to find some way to easily make the API calls I wanted.
+I moved about a month ago. In the spirit of getting a new place, I challenged myself to build a tool to help me keep track of my expenses. You can read about the "Expenses" project [here](/projects/). After building the initial prototype, I took it upon myself, as an added challenge, to build a desktop application for it; the point was that the application would make it easy for me to add entries to the Google Sheets in the background. It wasn't long before I realized my limited Swift knowledge and two months of Cocoa programming that I did in 2013 weren't sufficient to deal with the API calls I wanted to make to the Google Sheets API. I needed to find some way to easily make the API calls I wanted.
 
 Python is an obvious choice for API work. It's easy to write scripts that make calls to APIs in Python, and even easier to use Google APIs because of the Google Python Client Library.
 
