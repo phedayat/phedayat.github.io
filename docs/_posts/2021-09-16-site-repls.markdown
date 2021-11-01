@@ -2,6 +2,7 @@
 layout: post
 title: Using Replit to manage a GitHub Pages site
 date: 2021-09-16
+updated: 2021-11-1
 ---
 
 Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit.
