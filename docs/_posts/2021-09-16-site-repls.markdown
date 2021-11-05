@@ -2,7 +2,7 @@
 layout: post
 title: Using Replit to manage a GitHub Pages site
 date: 2021-09-16
-updated: 2021-11-1
+updated: 2021-11-5
 ---
 
 Let's talk about maintaining a GitHub Pages site through a repl hosted on Replit.
@@ -98,3 +98,5 @@ Try it with the new layout files we moved into our project, making a small chang
 While this isn't the ideal way to run the site, I've found that it works quite well without having to do everything on my local machine. While it would help to be able to use `jekyll serve` within the repl (you can't, or at least not easily), we're initially fine updating the site and viewing the changes in the deployed version.
 
 An additional remark: through this post in particular, I learned that when trying to write inline Markdown within an HTML block, it doesn't work. Everything is rendered exactly. So, as a fix since we're using Kramdown Markdown rendering, we can surround the Markdown with `<span markdown="1"></span>` for it to render. In general, if you have a block of Markdown to render in an HTML block, passing `markdown="1"` will tell Kramdown to render it.
+
+Update (11/5/2021): I've migrated to using GitHub Codespaces for editing site content, although any kind of Ruby Gem installations would still need to happen in Replit because of their package manager. This means the project does still need to be _initially_ setup in Replit.
