@@ -13,6 +13,29 @@ You're already using this project! After two and a half years, I've finally buil
 
 ---
 <br>
+#### _Team003 No Time To Cook_
+##### [Visit the repo](https://github.com/cse110-fa21-group3/cse110-fa21-group3)
+
+During Fall quarter 2021, I took a software engineering course. I was put in a group of ten and we were tasked with creating a CRUD app, specifically a recipe manager. I very quickly took on a leadership position as the back-end team lead, and helped setup a foundation so that we could get our web app to be functional as quickly as possible. I also managed (both in subscription and use) the recipe API we used, Spoonacular.
+
+The project is written in HTML/CSS/JavaScript, without the use of external frameworks. Its features include webscraping recipes from other sites, adding custom recipes, and an insightful homepage that shows you a myriad of recipes to try.
+
+While the project skeleton still exists, Spoonacular was a paid API that we no longer subscribe to. [Visit the skeleton!](https://notimetocook.netlify.app/)
+
+---
+<br>
+#### _What's really making us happy?_
+##### No public repo available
+##### [Watch our project video](https://www.youtube.com/watch?v=46IGNEDuWRo)
+
+In Fall quarter 2021, I took a data science class in which we formed groups to work on a DS project. My group chose to use the "World Happiness Report" dataset in order to glean what might be the biggest factor(s) in a citizen's happiness.
+
+The dataset had over 1900 records spanning across 5 years from more than 190 countries. It used several fields to gather data about world happiness. My group and I did an EDA and used (multi)linear regressions to gain the insights we needed.
+
+We came to the conclusion that people are happy when they have the freedom to make their own life choices and have family and friends to support them.
+
+---
+<br>
 #### _Leetles' Advanced Calendar_
 ##### [Visit the repo](https://github.com/os-ucsd/leetles)
 

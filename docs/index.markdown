@@ -14,9 +14,7 @@ title: Home
         <!-- Add another paragraph to highlight who you are as an engineer -->
         <!-- Passionate, hungry, hardworking, competent, semi-experienced, etc. -->
         <p>
-            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>. This is my second internship with them in the same role.
-
-            The project I worked on during the Summer, and will continue in the Fall, relates to web scraping.
+            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>, working on the video classification team.
         </p>
         <p>
             As I plan for my post-graduate future, feel free to message me!

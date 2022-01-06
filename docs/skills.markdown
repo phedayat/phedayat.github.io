@@ -47,5 +47,7 @@ permalink: /skills/
         <li>Docker</li>
         <li>Amazon Web Services (AWS)</li>
         <li>Kafka</li>
+        <li>Apache Nifi</li>
+        <li>Leadership in Software Engineering</li>
     </ul>
 </div>
