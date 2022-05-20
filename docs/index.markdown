@@ -7,14 +7,14 @@ title: Home
     <span style="float: left; width: 60%;">
         <p>Hello! My name's Parsia.</p>
         <p>
-            I'm a 4th year (Class of 2022) math-computer science major at UC San Diego.
+            I'm a graduating senior at UC San Diego, majoring in Math-Computer Science.
             I have an interest in many fields and topics, but the most prevailing are 
             software engineering, machine learning, cloud tech, mathematics, and data engineering/science/analytics.
         </p>
         <!-- Add another paragraph to highlight who you are as an engineer -->
         <!-- Passionate, hungry, hardworking, competent, semi-experienced, etc. -->
         <p>
-            I'm currently a Data Engineer Intern @ <a href="https://integralads.com/">Integral Ad Science</a>, working on the video classification team.
+            I'm currently an Associate Data Engineer @ <a href="https://integralads.com/">Integral Ad Science</a>, working on the video classification team.
         </p>
         <p>
             As I plan for my post-graduate future, feel free to message me!
