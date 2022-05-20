@@ -19,9 +19,14 @@ I'm currently a mathematics-computer science major at UC San Diego and a data en
 Relevant coursework includes:
  * Advanced Data Structures and Algorithms (CSE 100)
  * Introduction to Numerical Analysis (MATH 170A)
- * Software Tools and Techniques (Bash and Git) (CSE 30)
+ * Software Tools and Techniques (Bash and Git) (CSE 15L)
+ * Computer Organization and Systems Programming (CSE 30)
  * Introduction to Mathematical Reasoning (MATH 109)
  * Applied Linear Algebra (MATH 102)
+ * Introduction to Mathematical Software (MATH 157)
+ * Exploratory Data Analysis and Inference (MATH 189)
+ * Software Engineering (CSE 110)
+ * Design and Analysis of Algorithms (CSE 101)
 
 Some favorite classes of mine at UCSD so far:
  * Differential Geometry (MATH 150AB)
