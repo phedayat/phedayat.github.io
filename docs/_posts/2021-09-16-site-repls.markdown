@@ -100,3 +100,5 @@ While this isn't the ideal way to run the site, I've found that it works quite w
 An additional remark: through this post in particular, I learned that when trying to write inline Markdown within an HTML block, it doesn't work. Everything is rendered exactly. So, as a fix since we're using Kramdown Markdown rendering, we can surround the Markdown with `<span markdown="1"></span>` for it to render. In general, if you have a block of Markdown to render in an HTML block, passing `markdown="1"` will tell Kramdown to render it.
 
 Update (11/5/2021): I've migrated to using GitHub Codespaces for editing site content, although any kind of Ruby Gem installations would still need to happen in Replit because of their package manager. This means the project does still need to be _initially_ setup in Replit.
+
+Update (8/18/2022): Not sure this will work anymore. Testing to see if it will. 
