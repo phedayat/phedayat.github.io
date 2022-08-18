@@ -17,7 +17,7 @@ title: Home
         <p>
             I'm currently an Associate Data Engineer @ <a href="https://integralads.com/">Integral Ad Science</a>, working on the video classification team.
         </p>
-        <p>My personal site is currently undergoing some remodeling. Updated info coming soon.</p>
+        <p>My personal site is undergoing some remodeling. Updated info coming soon.</p>
    <!--      <p>
             If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/zxqziw65aev5gk4/PH_Res_9232021.pdf?dl=0">my résumé</a>.
         </p> -->
