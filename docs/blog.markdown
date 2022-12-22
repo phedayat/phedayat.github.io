@@ -5,3 +5,7 @@ layout: home
 title: Blog
 permalink: /blog/
 ---
+
+<div style="text-align: center;">
+	<h1>Coming soon...</h1>
+</div>

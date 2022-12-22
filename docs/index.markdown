@@ -22,8 +22,8 @@ title: Home
             If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/zxqziw65aev5gk4/PH_Res_9232021.pdf?dl=0">my résumé</a>.
         </p> -->
     </span>
-    <span style="float: right; width: 30%;">
+    <span style="float: right; width: 35%;">
         <img style="object-fit: cover;" height=540 width=420 src="/assets/New_Headshot.jpeg">
-        <h6 style="text-align: center;">Sunburnt, circa June 2022</h6>
+        <h6 style="text-align: center;">Sunburnt graduate, circa June 2022</h6>
     </span>
 </div>

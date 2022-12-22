@@ -9,7 +9,7 @@ permalink: /projects/
 #### _Personal Site_
 ##### No public repo available
 
-You're already using this project! After two and a half years, I've finally built my personal site. The development didn't take that long, I just didn't do it. I hope you're enjoying the experience. Read about [how to set up a site similar to this](/2021/09/16/site-repls.html). You can also read about [my thoughts on this and how I've set it up](/2021/09/15/new-post.html).
+You're already using this project! After two and a half years, I've finally built my personal site. The development didn't take that long, I just didn't do it. I hope you're enjoying the experience.
 
 ---
 <br>
@@ -45,8 +45,6 @@ We used Google Calendar and its API to run everything in the backend. I wrote Ja
 
 Read more about [my involvement in the project](/extra/).
 
-My own offshoot of the idea exists as a less visually appealing lite version of the original Advanced Calendar. It still performs the basic functionality of creating and adding to calendars for specific projects/classes. It also displays upcoming events. It's essentially a fork of the original with less design.
-
 ---
 <br>
 #### _Expenses_
@@ -55,6 +53,8 @@ My own offshoot of the idea exists as a less visually appealing lite version of 
 I recently moved back to La Jolla for my final year of undergrad, so I wanted a way to track my expenses. I used Google Sheets as a way of managing the expenses across several spreadsheets. Each one contains a table with some metrics off to the side. 
 
 I built a premilinary Python class to interface with the sheet, using the Google Sheets and Drive APIs. I used Swift to build a small GUI to use on my desktop. Within it, I used PythonKit to allow Swift to use the class I wrote in Python. Currently, it's able to add a row to whichever spreadsheet the expense belongs to by taking input from the desktop app.
+
+I won't publish the app even to Github because it's so barebones, but the main reason I mention it is because of PythonKit.
 
 ---
 <br>

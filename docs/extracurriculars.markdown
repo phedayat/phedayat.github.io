@@ -3,11 +3,11 @@ layout: page
 title: Extracurriculars
 permalink: /extra/
 ---
-<h1 class="page-heading">Extracurriculars</h1>
+<h1 class="page-heading">University Extracurriculars</h1>
 
 <div>
     <h4 class="page-heading"><i>Society of Undergraduate Mathematics Students (SUMS)</i></h4>
-    <h5>October 2018 - Present</h5>
+    <h5>October 2018 - June 2022</h5>
     
     <p>
         I joined this organization in October 2018, was elected to the Publicity Committee in November 2018, and was elected to Publicity Chair in December 2018. My duties in this position include managing all SUMS social media accounts (Facebook, Instagram, Twitter) and creating content for them. I also handle all in-person publicity, such as putting up fliers.
