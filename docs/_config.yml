@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Parsia Hedayat
+title: Marble Manifold
+author: Parsia Hedayat
 email: phedayat@ucsd.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Data, Software, Mathematics. Gauss Map enthusiast.
+  Data, Software, Mathematics.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://phedayat.com/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hedayatparsia
 github_username:  phedayat
 linkedin_username: phedayat
-chi_username: Parsia
 markdown: kramdown
 kramdown:
     math_engine: katex
