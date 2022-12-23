@@ -3,8 +3,8 @@ layout: page
 title: Home
 ---
 
-<div style="display: inline-block">
-    <span style="float: left; width: 60%;">
+<div style="display: inline-block;" class="footer-col">
+    <span style="float: left; width: 50%; footer-col-1">
         <!-- <p>Hello! My name's Parsia.</p> -->
         <p>
 <!--             I'm a graduating senior at UC San Diego, majoring in Math-Computer Science.
@@ -22,7 +22,7 @@ title: Home
             If you're looking for a single-page version of this site, here's <a href="https://www.dropbox.com/s/zxqziw65aev5gk4/PH_Res_9232021.pdf?dl=0">my résumé</a>.
         </p> -->
     </span>
-    <span style="float: right; width: 35%;">
+    <span style="float: right; width: 35%;" class="footer-col-2">
         <img style="object-fit: cover;" height=540 width=420 src="/assets/New_Headshot.jpeg">
         <h6 style="text-align: center;">Sunburnt graduate, circa June 2022</h6>
     </span>
