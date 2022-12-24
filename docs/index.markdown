@@ -23,7 +23,7 @@ title: Home
         </p> -->
     </span>
     <span style="float: right; width: 35%;" class="footer-col-2">
-        <img style="object-fit: cover;" height=540 width=420 src="/assets/New_Headshot.jpeg">
+        <img style="object-fit: cover;" height=540 width=420 src="/assets/images/New_Headshot.jpeg">
         <h6 style="text-align: center;">Sunburnt graduate, circa June 2022</h6>
     </span>
 </div>
