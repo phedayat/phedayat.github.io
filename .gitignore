@@ -1,6 +1,8 @@
 Gemfile.lock
 .DS_Store
 
-.jekyll-cache/
-_site/
+**/.jekyll-cache/
+**/_site/
+**/_sass/
+**/_not_included/
 .bundle/
