@@ -18,6 +18,17 @@ permalink: /certs/
 
 <h3>Certifications</h3>
 <div class="item">
+    <img src="/assets/images/aws-certified-developer-associate.png" style="height: 20%; width: 20%; float: right;">
+    <h4 class="page-heading">AWS Developer Associate</h4>
+    <span style="line-height: 50%">
+        <p>Issued: January 2023, by AWS Training and Certification</p>
+        <p>Expires: January 2026</p>
+        <a href="">View Certification</a>
+    </span>
+</div>
+<!-- <hr> -->
+<br>
+<div class="item">
     <h4 class="page-heading">Exploring and Preparing your Data with BigQuery</h4>
     <span style="line-height: 50%">
         <p>Issued: July 2021, by Coursera</p>
