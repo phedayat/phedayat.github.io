@@ -10,3 +10,5 @@ _not_included
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+run.sh
