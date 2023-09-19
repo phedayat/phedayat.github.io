@@ -23,7 +23,7 @@ permalink: /certs/
     <span style="text-wrap: balance;">
         <p>Issued: January 2023, by AWS Training and Certification</p>
         <p>Expires: January 2026</p>
-        <a href="">View Certification</a>
+        <a href="https://www.linkedin.com/in/phedayat/details/featured/1635541288370/single-media-viewer?type=DOCUMENT&profileId=ACoAACoNy0wBRfhpuHRQod4uaZkElPVukMRxtS8&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_featured_details%3BuqF%2B8EALSEaJgmVMxyPAbQ%3D%3D" target="_blank" rel="noopener noreferrer">View Certification</a>
     </span>
 </div>
 <!-- <hr> -->
