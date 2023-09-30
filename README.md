@@ -1,3 +1,3 @@
 ## Personal Site
 
-Site last updated: 12/23/2022
+__[Last Updated]__ 9/12/2023
