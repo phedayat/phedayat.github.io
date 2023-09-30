@@ -1,0 +1,24 @@
+<header>
+  <nav>
+    <ul>
+      <li class="pull-left {{ if .IsHome }}current{{ end }}">
+        <a href="{{ .Site.BaseURL }}">{{ lower .Site.Title }}</a>
+      </li>
+      <!-- {{ $title := lower .Title }}
+      {{ $section := lower .Section }} -->
+      <!-- {{ range .Site.Menus.main }}
+      {{ $name := lower .Name }}
+        <li class="pull-left {{ if eq $name $title }}current{{ else if eq $section $name }}current{{ else if eq $title (pluralize $name) }}current{{ end }}">
+          <a href="{{ .URL }}">~/{{ lower .Name }}</a>
+        </li>
+      {{end}} -->
+      <div class="sections">
+        {{ range .Site.Sections }}
+          {{ if not (strings.Contains .Title "Posts") }}
+          <a href="/{{ lower .Title }}">{{ lower .Title }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </ul>
+  </nav>
+</header>

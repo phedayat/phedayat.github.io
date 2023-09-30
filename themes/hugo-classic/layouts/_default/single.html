@@ -1,0 +1,22 @@
+<!-- HTML for a single post -->
+
+{{ partial "header.html" . }}
+<div class="article-meta">
+  <h3><span class="title">{{ .Title | markdownify }}</span></h3>
+  {{ if .Params.date }}<h5 class="date">{{ .Date.Format "2006/01/02" }}</h5>{{ end }}
+  {{ if .Params.subtitle }}<span>{{ .Params.subtitle | markdownify }}</span>{{ end }}
+  <!-- <p class="terms">
+    {{ range $i := (slice "categories" "tags") }}
+      {{ with ($.Param $i) }}
+        {{ $i | title }}: {{ range $k := . }}<a href="{{ relURL (print "/" $i "/" $k | urlize) }}">{{$k}}</a> {{ end }}
+      {{ end }}
+    {{ end }}
+  </p> -->
+</div>
+
+<div class="content-wrapper">
+  <main>
+    {{ .Content }}
+  </main>
+</div>
+{{ partial "footer.html" . }}
