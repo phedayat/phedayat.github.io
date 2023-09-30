@@ -1,14 +1,4 @@
-Gemfile.lock
+OG/
+
 .DS_Store
 
-.jekyll-cache
-_site
-_not_included
-.bundle
-
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-
-run.sh
