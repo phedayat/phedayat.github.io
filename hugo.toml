@@ -1,0 +1,8 @@
+baseURL = 'https://phedayat.com/'
+languageCode = 'en-us'
+title = 'ph'
+theme = 'hugo-classic'
+
+[markup.goldmark.renderer]
+unsafe = true
+xhtml = true
