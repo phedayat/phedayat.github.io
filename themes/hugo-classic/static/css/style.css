@@ -137,11 +137,14 @@ header .current a {
 /* Code Boxes */
 pre {
   border: 1px solid #b1b1b1;
-  text-wrap: nowrap;
   padding: 1em;
   overflow-x: auto;
+  min-width: none;
+  min-height: auto;
 }
-pre code { background: none; }
+pre { 
+  background-color: #000; 
+}
 
 /* Images, tables, misc. */
 img, iframe, video {
@@ -201,8 +204,19 @@ blockquote {
   margin: 5px;
 }
 
-#table-of-contents {
+.journal {
+  text-align: center;
+  padding: 5px;
+  background-color: #2f3d5c;
+  border-radius: 5px;
+  color: #001F4D;
+  font-weight: bold;
+  box-shadow: .03rem .05rem 2px #000;
+  font-size: 8pt;
+  text-shadow: 0px .03rem 5px #adc4fa;
 }
+
+#table-of-contents {}
 
 /* Small devices, phones */
 @media only screen and (min-width : 480px) {
