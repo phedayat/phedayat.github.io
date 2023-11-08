@@ -1,8 +1,13 @@
 ---
-title: Home
+title: "Home"
 description: "Into the abyss"
+showtitle: false
 ---
+<script type="module" crossorigin src="assets/index-bdcfde55.js" class="creation"></script>
+<br>
 
-Associate Data Engineer @ Integral Ad Science, working in MLOps.
-
-I live somewhere between math, data, and software.
+<div class="mine">
+    <p class="me">
+        I live somewhere between math, computing, data, and software.
+    </p>
+</div>
