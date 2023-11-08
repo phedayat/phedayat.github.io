@@ -1,0 +1,17 @@
+<!-- HTML for the nav bar at the top of the site -->
+<header>
+  <nav>
+    <ul>
+      <li class="pull-left {{ if .IsHome }}current{{ end }}">
+        <a href="{{ .Site.BaseURL }}">{{ lower .Site.Title }}</a>
+      </li>
+    </ul>
+    <div class="sections">
+      {{ range .Site.Sections }}
+        {{ if not (strings.Contains .Title "Posts") }}
+          <a href="/{{ lower .Title }}">{{ lower .Title }}</a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </nav>
+</header>

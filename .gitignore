@@ -1,14 +1,9 @@
-Gemfile.lock
+OG/
+
+themes/hugo-classic/exampleSite
+themes/hugo-classic/images
+themes/hugo-classic/theme.toml
+
 .DS_Store
 
-.jekyll-cache
-_site
-_not_included
-.bundle
-
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-
-run.sh
+_not_included/
