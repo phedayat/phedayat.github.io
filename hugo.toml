@@ -2,6 +2,14 @@ baseURL = 'https://phedayat.com/'
 languageCode = 'en-us'
 title = 'ph'
 theme = 'hugo-classic'
+description = 'My speck of the internet'
+
+[params]
+footer = ''
+
+[markup.highlight]
+style = "paraiso-dark"
+# style = "xcode-dark"
 
 [markup.goldmark.renderer]
 unsafe = true
