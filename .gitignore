@@ -6,3 +6,4 @@ themes/hugo-classic/theme.toml
 
 .DS_Store
 
+_not_included/
