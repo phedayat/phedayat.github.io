@@ -1,0 +1,33 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family:
+        'Inter',
+        sans-serif,
+        'Apple Color Emoji',
+        'Segoe UI Emoji',
+        'Segoe UI Symbol';
+      }
+
+@supports (font-variation-settings: normal) {
+  html { font-family:
+          'Inter var',
+          sans-serif,
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol';
+        }
+}
+
+/* Code inside a codeblock */
+pre > code {
+  font-family: monospace;
+}
+
+/* Inline code */
+:not(pre) > code {
+  background-color: #252525;
+  color: #ff8000;
+  font-family: monospace;
+  font-size: 85%;
+  border-radius: 1rem;
+  padding: 3px 6px;
+}
