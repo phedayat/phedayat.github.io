@@ -31,7 +31,6 @@
     table thead th { border-bottom: 1px solid #666; }
     th, td { padding: 5px; }
     tr:nth-child(even) { background: #666 }
-
 }
 
 
@@ -62,34 +61,41 @@
     table thead th { border-bottom: 1px solid #ddd; }
     th, td { padding: 5px; }
     tr:nth-child(even) { background: #eee }
-
 }
 
-
 body {
-  max-width: 800px;
   margin: auto;
   padding: .2em;
   line-height: 1.5em;
+  
+  /* These are for creating area */
+  /* for the footer to occupy at */
+  /* the bottom */
+  min-width: none;
+  max-width: 800px;
+  min-height: 99vh; /* Both at 99 to prevent scrollbar unless needed */
+  max-height: 99vh; /* Both at 99 to prevent scrollbar unless needed */
+  display: flex;
+  flex-direction: column;
+  overflow: auto; /* Controls scrollbar/scrolling */
 }
 
-/* h1 {
-  line-height: 1.5em;
-} */
-
-/* Header and Footer */
-.menu li { display: inline-block; }
-.menu a {
-  text-decoration: none;
-  padding: 5px;
-  margin-bottom: 20px;
+/* Footer */
+footer { 
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  position: static;
 }
-
-.terms { font-size: .9em; }
-.menu, footer { text-align: center; }
-.article-meta { margin-bottom: 5%; }
-.title { font-size: 1.1em; }
 footer a { text-decoration: none; }
+
+/* Post Metadata */
+.article-meta { 
+  margin-bottom: 5%; 
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.title { font-size: 1.1em; }
 
 .pull-left {
     float: left
@@ -106,14 +112,13 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Adjust background at your leisure! */
+/* Header */
 header {
     position: relative;
     width: 100%;
     height: 1.75rem;
     font-size: 1rem;
 }
-
 header ul,
 header ol {
     margin: 0;
@@ -123,7 +128,6 @@ header ol {
 header nav {
     padding: 0 0.5rem
 }
-
 header a {
     color: #fff;
     line-height: 1.75rem;
@@ -136,14 +140,11 @@ header .current a {
 
 /* Code Boxes */
 pre {
-  border: 1px solid #b1b1b1;
-  padding: 1em;
+  padding: 1rem;
   overflow-x: auto;
-  min-width: none;
-  min-height: auto;
-}
-pre { 
-  background-color: #000; 
+  margin: 3rem auto;
+  box-shadow: 0rem 0rem 1rem #2E1E2E;
+  border-radius: 1rem;
 }
 
 /* Images, tables, misc. */
@@ -156,12 +157,11 @@ img, iframe, video {
 }
 
 main {
-  hyphens: auto;
   max-width: 650px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.7em;
-  hyphens: auto;
+  hyphens: none;
   display: block;
   font-size: 1.1em;
 }
@@ -170,23 +170,19 @@ main a {
 }
 
 blockquote {
-
   border-left: 5px solid #ccc;
   padding: 3px 1em 3px;
 }
 
+/* List page content container */
 .content-wrapper {
   padding: 0px 12px 0px 12px;
 }
-#foxy {
-  min-width: 40px;
-  float: right;
-  padding: 10px;
-  display: block;
-}
 
+/* Section links in nav bar */
 .sections { float: right; }
 
+/* Not included - Lifestyle */
 #portal {
   text-align: center;
   display: flex;
@@ -204,6 +200,7 @@ blockquote {
   margin: 5px;
 }
 
+/* Journal */
 .journal {
   text-align: center;
   padding: 5px;
@@ -216,32 +213,44 @@ blockquote {
   text-shadow: 0px .03rem 5px #adc4fa;
 }
 
-#table-of-contents {}
-
-/* Small devices, phones */
-@media only screen and (min-width : 480px) {
-  #foxy {
-    min-width: 40px;
-    float: center;
-    padding: 10px 10px 10px 20px;
-    display: block;
-  }
-
+/* Socials */
+.social-container {
+  display: inline-flex;
+  margin: 2%;
+  justify-content: center;
 }
 
-/* 在大屏幕上应用特定样式 */
-@media screen and (min-width: 768px) {
-    #table-of-contents {
-        position: fixed; /* 固定定位，使其悬浮在页面上 */
-        top: 50%; /* 上边距为50% */
-        right: 15px; /* 右边距为0，将其放在右侧 */
-        transform: translateY(-50%); /* 使用transform来垂直居中 */
-        background-color: #f0f0f0; /* 设置背景颜色 */
-        padding: 10px; /* 添加一些内边距以增加可读性 */
-        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* 添加阴影效果 */
-        width: 250px; /* 设置宽度 */
-        max-height: 70vh; /* 设置最大高度为视口的70% */
-        overflow-y: auto; /* 添加垂直滚动条 */
-    }
+.social-icon {
+  min-width: 3rem;
+  min-height: 3rem;
+  max-width: 3rem;
+  max-height: 3rem;
+  margin-right: 1vw;
 }
 
+/* Mermaid.js */
+.mermaid {
+  text-align: center;
+  box-shadow: none;
+}
+
+/* KaTeX */
+.katex {
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+/* Homepage cube stuff */
+.mine {
+  display: table;
+  width: 100%;
+}
+
+#cubeRenderer {
+  float: right;
+}
+
+.me {
+  display: table-cell;
+  vertical-align: middle;
+}

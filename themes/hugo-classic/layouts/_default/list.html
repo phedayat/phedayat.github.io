@@ -3,9 +3,7 @@
 {{ partial "header.html" . }}
 
 <div class="content-wrapper">
-  {{if not .IsHome }}
-    {{ if .Params.showtitle }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
-  {{ end }}
+  {{ if .Params.showtitle }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
 
   {{ .Content }}
 
