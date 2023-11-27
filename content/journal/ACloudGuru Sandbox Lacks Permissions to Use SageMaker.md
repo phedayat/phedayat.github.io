@@ -3,7 +3,7 @@ title: ACloudGuru Sandbox Lacks Permissions To Use AWS SageMaker
 date: "2023-11-27"
 ---
 
-If you've ever tried to use AWS SageMaker in the AWS sandbox environment provided by ACloudGuru, then you've probably run into these errors:
+If you've ever tried to use AWS SageMaker in the AWS sandbox environment provided by [ACloudGuru](https://www.pluralsight.com/cloud-guru), then you've probably run into these errors:
 ```
 user/cloud_user is not authorized to perform: sagemaker:ListEndpoints because no identity-based policy allows the sagemaker:ListEndpoints action
 ```
