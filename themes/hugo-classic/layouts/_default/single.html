@@ -21,7 +21,7 @@
 
 <!-- Metadata for a post (i.e. regular page) -->
 <div class="article-meta">
-  {{ $delim := "=>" }}
+  {{ $delim := "" }}
   <strong><span class="title">{{ $delim }} {{ .Title | markdownify }}</span></strong>
   {{ if .Params.subtitle }}<p>{{ $delim }} {{ .Params.subtitle | markdownify }}</p>{{ end }}
   {{ if .Params.date }}<p class="date">{{ $delim }} {{ .Date.Format "2006-01-02" }}</p>{{ end }}
