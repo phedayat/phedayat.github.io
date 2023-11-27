@@ -53,6 +53,5 @@ Attempting to edit the policy proves fruitless, as we're faced with this error:
 ```
 user/cloud_user is not authorized to perform: iam:CreatePolicyVersion
 ```
-thus at a dead-end.
 
 Through the forums, I've found our answer: [SageMaker *was never supported*, due to the cost](https://acloud.guru/forums/aws-certified-machine-learning-specialty/discussion/-Mg7pL4c7KK4V5ufifVX/how-to-get-around-explicit-deny-for-sagemakercreatetrainingjob?answer=-MjAFPqn0gxj4ZosMzTz). Luckily, we can still use SageMaker via the labs; to follow along with the demos, you have to run the risk of incurring possible charges on your AWS account. Proceed with caution.
