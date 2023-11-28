@@ -1,20 +1,14 @@
-@import url('https://rsms.me/inter/inter.css');
-html { font-family:
-        'Inter',
-        sans-serif,
-        'Apple Color Emoji',
-        'Segoe UI Emoji',
-        'Segoe UI Symbol';
-      }
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono'); */
+html { 
+  font-family:
+    /* 'Noto Sans Mono', */
+    sans-serif;
+}
 
-@supports (font-variation-settings: normal) {
-  html { font-family:
-          'Inter var',
-          sans-serif,
-          'Apple Color Emoji',
-          'Segoe UI Emoji',
-          'Segoe UI Symbol';
-        }
+.date {
+  font-family: monospace;
+  font-size: 110%;
+  margin-right: 2vw;
 }
 
 /* Code inside a codeblock */
