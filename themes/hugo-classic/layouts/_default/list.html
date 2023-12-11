@@ -3,21 +3,25 @@
 {{ partial "header.html" . }}
 
 <div class="content-wrapper">
-  {{ if .Params.showtitle }}<h1>{{ .Title | markdownify }}</h1>{{ end }}
+  {{ if .Params.showtitle }}
+    <h1>{{ .Title | markdownify }}</h1>
+  {{ end }}
 
   {{ .Content }}
 
   {{ if (eq .Title "Journal") }}
-    <ul>
-      {{ $pages := .Pages }}
-      {{ $pages = .Site.RegularPages }}
+    <ul style="list-style-type: none;">
+      {{ $pages := .Site.RegularPages }}
       {{ range (where $pages "Section" "!=" "") }}
-      <li>
-        <span class="date">{{ .Date.Format "2006/01/02" }}</span>
-        <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-      </li>
+        {{ if (not .Params.Private) }}
+          <li>
+            <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+          </li>
+        {{ end }}
       {{ end }}
     </ul>
   {{ end }}
 </div>
+
 {{ partial "footer.html" . }}
