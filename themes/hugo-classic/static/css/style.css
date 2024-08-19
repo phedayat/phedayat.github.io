@@ -86,6 +86,8 @@ body {
     padding: 0.2em;
     line-height: 1.5em;
 
+    font-family: monospace;
+
     /* These are for creating area */
     /* for the footer to occupy at */
     /* the bottom */
