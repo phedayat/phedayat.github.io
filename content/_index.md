@@ -8,6 +8,6 @@ showtitle: false
 
 <div class="mine">
     <p class="me">
-        I live somewhere between math, computing, data, and software.
+        I live somewhere between math, computing, data, and software
     </p>
 </div>
