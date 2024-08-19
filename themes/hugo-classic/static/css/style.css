@@ -264,19 +264,43 @@ blockquote {
 
 /* Homepage cube stuff */
 .mine {
-    display: table;
+    display: grid;
     width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    text-align: center;
+    justify-items: center;
 }
 
 #cubeRenderer {
-    float: right;
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
 }
 
 .me {
-    display: table-cell;
-    vertical-align: middle;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    font-family: monospace;
 }
 
 .github-icon {
     filter: brightness(3);
+}
+
+/* details > *:not(summary) {
+    padding: 1vw;
+    border: solid #000 .5vw;
+} */
+
+details[open] {
+    padding: 3%;
+    border: solid #434a99 2px;
+}
+
+details {
+    /* padding: 1.5vh; */
+    padding: 2%;
+    border: solid #434a99 2px;
 }
