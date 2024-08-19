@@ -1,6 +1,6 @@
 ---
 title: ACloudGuru Sandbox Lacks Permissions To Use AWS SageMaker
-date: "2023-11-27"
+date: 2023-11-27
 ---
 
 If you've ever tried to use AWS SageMaker in the AWS sandbox environment provided by [ACloudGuru](https://www.pluralsight.com/cloud-guru), then you've probably run into these errors:
