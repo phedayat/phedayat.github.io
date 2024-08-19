@@ -18,8 +18,6 @@ args = parser.parse_args()
 with open(args.input_file, "r+") as f:
     source = f.read()
 
-    # print("ORIGINAL: ", source, "\n----------\n")
-
     transforms: List[Component] = [
         FixLinks(),
         BlockQuotes(),
@@ -30,9 +28,6 @@ with open(args.input_file, "r+") as f:
     ]
     for transform in transforms:
         source = transform.run(source)
-
-    # print("NEW: ", source, "\n----------\n")
-    print(source)
 
     f.seek(0)
     f.flush()
