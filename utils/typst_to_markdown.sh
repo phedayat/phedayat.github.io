@@ -10,6 +10,6 @@ pandoc $input_file -f typst -t markdown -s --mathjax -o $out_filename
 
 [[ ! -f "${out_filename}" ]] && echo "Output file not created" && exit 1
 
-# python3 fix_aligned_env.py -i $out_filename
+python3 typst_transform/document_transform.py -i $out_filename
 
-# mv $out_filename ../content/journal
+mv $out_filename ../content/journal
