@@ -1,9 +1,10 @@
-OG/
-
 themes/hugo-classic/exampleSite
 themes/hugo-classic/images
 themes/hugo-classic/theme.toml
 
 .DS_Store
 
+OG/
 _not_included/
+
+**/__pycache__/
