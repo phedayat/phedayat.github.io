@@ -179,3 +179,14 @@ class FixLinks(Component):
         link: str = match.group(1)
         link = link.replace("\n", " ")
         return link
+    
+class CreateHeadingSpace(Component):
+    _cname = "create_heading_space"
+    _cpattern = r"## [\w\s]+"
+
+    def __init__(self):
+        super().__init__(self._cname, self._cpattern)
+    
+    def replacement(self, match: re.Match) -> str:
+        heading = match.group(0)
+        return f"<br>\n\n{heading}"

@@ -7,6 +7,7 @@ from components import (
     Component, 
     MathBlock,
     BlockQuotes,
+    CreateHeadingSpace,
     RemoveSingleLineBreaks,
     RemoveUnwantedCharacters,
 )
@@ -25,6 +26,7 @@ with open(args.input_file, "r+") as f:
         MathBlock(), 
         RemoveSingleLineBreaks(),
         RemoveUnwantedCharacters(),
+        CreateHeadingSpace(),
     ]
     for transform in transforms:
         source = transform.run(source)
