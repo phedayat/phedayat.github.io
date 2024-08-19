@@ -170,13 +170,12 @@ class RemoveUnwantedCharacters(Component):
     
 class FixLinks(Component):
     _cname = "fix_links"
-    _cpattern = r"\[(\[.+)\]\{.*}"
+    _cpattern = r"\[(\[[.\s\S]+)\]\{\.\w+\}"
 
     def __init__(self):
         super().__init__(self._cname, self._cpattern)
 
     def replacement(self, match: re.Match) -> str:
-        print(match.groups())
-        proper_link = match.group(1)
-
-        return proper_link
+        link: str = match.group(1)
+        link = link.replace("\n", " ")
+        return link
