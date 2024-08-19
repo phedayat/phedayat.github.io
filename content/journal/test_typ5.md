@@ -1,10 +1,12 @@
 ---
-title: test_typ4
+title: test_typ5
 date: 2024-07-18
 math: True
 ---
 
 # Journey to DFT
+
+<br>
 
 ## Context 
 
@@ -133,6 +135,8 @@ twofold:
 2.  In DFT, our function is *implicitly assumed to be periodic*.
 
 We'll discuss the effects of discrete samples and periodicity later.
+
+<br>
 
 ## Complex Rotations
 
