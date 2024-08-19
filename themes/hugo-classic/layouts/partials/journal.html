@@ -1,0 +1,11 @@
+<ul style="list-style-type: none;">
+    {{ $pages := .Site.RegularPages }}
+    {{ range (where $pages "Section" "!=" "") }}
+        {{ if (not .Params.Private) }}
+        <li>
+            <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        </li>
+        {{ end }}
+    {{ end }}
+</ul>
