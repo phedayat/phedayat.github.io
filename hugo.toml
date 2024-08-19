@@ -9,7 +9,6 @@ footer = ''
 
 [markup.highlight]
 style = "paraiso-dark"
-# style = "xcode-dark"
 
 [markup.goldmark.renderer]
 unsafe = true
