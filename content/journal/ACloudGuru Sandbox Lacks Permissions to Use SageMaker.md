@@ -4,24 +4,24 @@ date: 2023-11-27
 ---
 
 If you've ever tried to use AWS SageMaker in the AWS sandbox environment provided by [ACloudGuru](https://www.pluralsight.com/cloud-guru), then you've probably run into these errors:
-```
+```text
 user/cloud_user is not authorized to perform: sagemaker:ListEndpoints because no identity-based policy allows the sagemaker:ListEndpoints action
 ```
 
-```
+```text
 user/cloud_user is not authorized to perform: sagemaker:ListModels because no identity-based policy allows the sagemaker:ListModels action
 ```
 
-```
+```text
 user/cloud_user is not authorized to perform: sagemaker:ListNotebookInstances because no identity-based policy allows the sagemaker:ListNotebookInstances action
 ```
 
-```
+```text
 user/cloud_user is not authorized to perform: sagemaker:ListTrainingJobs because no identity-based policy allows the sagemaker:ListTrainingJobs action
 ```
 
 Or this one when ignoring the earlier errors and still attempting to create a notebook instance:
-```
+```text
 user/cloud_user is not authorized to perform: sagemaker:CreateNotebookInstance
 ```
 
@@ -50,7 +50,7 @@ A quick look at the JSON reveals the issue:
 The key `NotAction` is an IAM JSON policy element [that's equivalent to saying "all resources *except* these"](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_notaction.html). In particular, the policy assigned to us excludes exactly the AWS service we need to complete the demos in the AWS ML Specialty.
 
 Attempting to edit the policy proves fruitless, as we're faced with this error:
-```
+```text
 user/cloud_user is not authorized to perform: iam:CreatePolicyVersion
 ```
 
