@@ -2,7 +2,7 @@
 @media (prefers-color-scheme: dark) {
     body {
         /* background-color: #393E41; */
-        background-color: #202020;
+        background-color: #100f20;
         color: white;
     }
 
@@ -16,14 +16,14 @@
 
     header {
         /* background: #393E41; */
-        background: #202020;
-        border-bottom: 2px solid #8ba9ef;
+        background: #100f20;
+        border-bottom: 2px solid #7c8aaa;
     }
 
     .article-meta,
     .menu a {
         /* background: #393E41; */
-        background: #202020;
+        background: #100f20;
         color: white;
     }
 
@@ -45,7 +45,7 @@
 }
 
 /* Light mode */
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
     blockquote {
         background: #f9f9f9;
     }
@@ -79,14 +79,12 @@
     tr:nth-child(even) {
         background: #eee;
     }
-}
+} */
 
 body {
     margin: auto;
     padding: 0.2em;
     line-height: 1.5em;
-
-    font-family: monospace;
 
     /* These are for creating area */
     /* for the footer to occupy at */
@@ -142,6 +140,8 @@ header {
     width: 100%;
     height: 1.75rem;
     font-size: 1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 header ul,
 header ol {
@@ -284,7 +284,7 @@ blockquote {
     display: grid;
     grid-column: 1;
     grid-row: 1;
-    font-family: monospace;
+    font-size: 12pt;
 }
 
 .github-icon {

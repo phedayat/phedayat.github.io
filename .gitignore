@@ -1,8 +1,11 @@
+public
+
 themes/hugo-classic/exampleSite
 themes/hugo-classic/images
 themes/hugo-classic/theme.toml
 
 .DS_Store
+.hugo_build.lock
 
 OG/
 _not_included/

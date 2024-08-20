@@ -1,8 +1,9 @@
 ---
 title: Socials
 description: "How to connect with me"
-showtitle: true
+showtitle: false
 ---
+## Socials
 
 <div style="text-align: center;">
     <div class="social-container">

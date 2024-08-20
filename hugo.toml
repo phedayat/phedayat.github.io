@@ -8,8 +8,10 @@ description = 'My speck of the internet'
 footer = ''
 
 [markup.highlight]
-style = "paraiso-dark"
-# style = "xcode-dark"
+# style = "catppuccin-mocha"
+style = "modus-vivendi"
+# style = "onedark"
+# style = "rose-pine"
 
 [markup.goldmark.renderer]
 unsafe = true

@@ -1,8 +1,6 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono'); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&display=swap');
 html { 
-  font-family:
-    /* 'Noto Sans Mono', */
-    sans-serif;
+  font-family: 'Noto Sans Mono';
 }
 
 .date {
