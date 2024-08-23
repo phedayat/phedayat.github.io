@@ -44,43 +44,6 @@
     }
 }
 
-/* Light mode */
-/* @media (prefers-color-scheme: light) {
-    blockquote {
-        background: #f9f9f9;
-    }
-
-    a {
-        color: #613dc1;
-    }
-
-    header {
-        background: #613dc1;
-    }
-
-    .article-meta,
-    .menu a {
-        background: #e8dbc5;
-        color: #000;
-    }
-
-    table {
-        margin: auto;
-        border-top: 1px solid #666;
-        border-bottom: 1px solid #666;
-    }
-    table thead th {
-        border-bottom: 1px solid #ddd;
-    }
-    th,
-    td {
-        padding: 5px;
-    }
-    tr:nth-child(even) {
-        background: #eee;
-    }
-} */
-
 body {
     margin: auto;
     padding: 0.2em;
@@ -168,7 +131,7 @@ pre {
     overflow-x: auto;
     white-space: pre-wrap;
     margin: 3rem auto;
-    box-shadow: 0rem 0rem 1rem #2e1e2e;
+    box-shadow: 0rem 0rem .175rem #afa9ff;
     border-radius: 1rem;
     background: #161414;
 }
@@ -258,6 +221,10 @@ blockquote {
     margin-right: 1vw;
 }
 
+.github-icon {
+    filter: brightness(3);
+}
+
 /* Mermaid.js */
 .mermaid {
     text-align: center;
@@ -287,22 +254,13 @@ blockquote {
     font-size: 12pt;
 }
 
-.github-icon {
-    filter: brightness(3);
-}
-
-/* details > *:not(summary) {
-    padding: 1vw;
-    border: solid #000 .5vw;
-} */
-
+/* Styling posts converted from Typst */
 details[open] {
     padding: 3%;
     border: solid #434a99 2px;
 }
 
 details {
-    /* padding: 1.5vh; */
     padding: 2%;
     border: solid #434a99 2px;
 }
