@@ -265,6 +265,8 @@ details {
     border: solid #434a99 2px;
 }
 
-ul > li {
-    margin: 3%;
+/* Adding some space around list items */
+:not(nav) > ul > li, :not(nav) > ol > li {
+    margin: 3vh;
+    padding-left: 3%;
 }
