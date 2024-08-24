@@ -131,7 +131,7 @@ pre {
     overflow-x: auto;
     white-space: pre-wrap;
     margin: 3rem auto;
-    box-shadow: 0rem 0rem .175rem #afa9ff;
+    box-shadow: 0rem 0rem .175rem #e0ddfe;
     border-radius: 1rem;
     background: #161414;
 }
@@ -263,4 +263,8 @@ details[open] {
 details {
     padding: 2%;
     border: solid #434a99 2px;
+}
+
+ul > li {
+    margin: 3%;
 }
