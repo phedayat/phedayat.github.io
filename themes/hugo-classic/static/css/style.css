@@ -269,4 +269,5 @@ details {
 :not(nav) > ul > li, :not(nav) > ol > li {
     margin: 3vh;
     padding-left: 3%;
+    list-style-position: outside;
 }
