@@ -62,6 +62,12 @@ body {
 }
 
 
+/* Paragraphs */
+p {
+    margin-bottom: 7%;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
