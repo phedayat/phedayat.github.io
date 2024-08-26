@@ -7,4 +7,3 @@ build:
 
 run:
 	hugo serve
-

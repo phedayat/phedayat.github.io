@@ -2,6 +2,8 @@
 title: Re - Coatue AI Presentation
 date: 2023-12-11
 private: true
+sitemap:
+    disable: true
 ---
 [Annotated presentation (Dropbox)](https://www.dropbox.com/scl/fi/o4v2g75bwrjmrvvvjckws/Coatue_Artificial_Intelligence_Full_Report.pdf?rlkey=8trozz2pxnfihz9tkvlcda2wl&dl=0)
 

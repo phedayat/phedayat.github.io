@@ -1,7 +1,6 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        /* background-color: #393E41; */
         background-color: #100f20;
         color: white;
     }
@@ -11,13 +10,12 @@
     }
 
     a {
-        color: #92a2e6;
+        color: #9caeff;
     }
 
     header {
-        /* background: #393E41; */
-        background: #100f20;
-        border-bottom: 2px solid #7c8aaa;
+        background: none;
+        border-bottom: 2px solid #00a6ff;
     }
 
     .article-meta,
@@ -44,59 +42,30 @@
     }
 }
 
-/* Light mode */
-/* @media (prefers-color-scheme: light) {
-    blockquote {
-        background: #f9f9f9;
-    }
-
-    a {
-        color: #613dc1;
-    }
-
-    header {
-        background: #613dc1;
-    }
-
-    .article-meta,
-    .menu a {
-        background: #e8dbc5;
-        color: #000;
-    }
-
-    table {
-        margin: auto;
-        border-top: 1px solid #666;
-        border-bottom: 1px solid #666;
-    }
-    table thead th {
-        border-bottom: 1px solid #ddd;
-    }
-    th,
-    td {
-        padding: 5px;
-    }
-    tr:nth-child(even) {
-        background: #eee;
-    }
-} */
 
 body {
     margin: auto;
     padding: 0.2em;
     line-height: 1.5em;
+    height: 100%;
 
     /* These are for creating area */
     /* for the footer to occupy at */
     /* the bottom */
     min-width: none;
     max-width: 800px;
-    min-height: 99vh; /* Both at 99 to prevent scrollbar unless needed */
-    max-height: 99vh; /* Both at 99 to prevent scrollbar unless needed */
+    min-height: 100vh; /* Both at 99 to prevent scrollbar unless needed */
     display: flex;
     flex-direction: column;
     overflow: auto; /* Controls scrollbar/scrolling */
 }
+
+
+/* Paragraphs */
+p {
+    margin-bottom: 5%;
+}
+
 
 /* Footer */
 footer {
@@ -109,12 +78,15 @@ footer a {
     text-decoration: none;
 }
 
+
 /* Post Metadata */
 .article-meta {
+    background: transparent;
     margin-bottom: 5%;
     padding-left: 5%;
     padding-top: 5%;
 }
+
 .title {
     font-size: 1.1em;
 }
@@ -134,6 +106,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 /* Header */
 header {
     position: relative;
@@ -143,24 +116,27 @@ header {
     padding-top: 1%;
     padding-bottom: 1%;
 }
-header ul,
-header ol {
+
+header ul, header ol {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 header nav {
     padding: 0 0.5rem;
 }
+
 header a {
     color: #fff;
     line-height: 1.75rem;
     padding: 0 0.5rem;
 }
-header a:hover,
-header .current a {
+
+header a:hover, header .current a {
     color: #fff;
 }
+
 
 /* Code Boxes */
 pre {
@@ -168,15 +144,14 @@ pre {
     overflow-x: auto;
     white-space: pre-wrap;
     margin: 3rem auto;
-    box-shadow: 0rem 0rem 1rem #2e1e2e;
+    box-shadow: 0rem 0rem .175rem #e0ddfe;
     border-radius: 1rem;
     background: #161414;
 }
 
+
 /* Images, tables, misc. */
-img,
-iframe,
-video {
+img, iframe, video {
     max-width: 100%;
     height: auto;
     display: block;
@@ -193,6 +168,7 @@ main {
     display: block;
     font-size: 1.1em;
 }
+
 main a {
     font-weight: bold;
 }
@@ -202,15 +178,18 @@ blockquote {
     padding: 3px 1em 3px;
 }
 
+
 /* List page content container */
 .content-wrapper {
     padding: 0px 12px 0px 12px;
 }
 
+
 /* Section links in nav bar */
 .sections {
     float: right;
 }
+
 
 /* Not included - Lifestyle */
 #portal {
@@ -230,6 +209,7 @@ blockquote {
     margin: 5px;
 }
 
+
 /* Journal */
 .journal {
     text-align: center;
@@ -242,6 +222,7 @@ blockquote {
     font-size: 8pt;
     text-shadow: 0px 0.03rem 5px #adc4fa;
 }
+
 
 /* Socials */
 .social-container {
@@ -258,11 +239,17 @@ blockquote {
     margin-right: 1vw;
 }
 
+.github-icon {
+    filter: brightness(3);
+}
+
+
 /* Mermaid.js */
 .mermaid {
     text-align: center;
     box-shadow: none;
 }
+
 
 /* Homepage cube stuff */
 .mine {
@@ -287,22 +274,22 @@ blockquote {
     font-size: 12pt;
 }
 
-.github-icon {
-    filter: brightness(3);
-}
 
-/* details > *:not(summary) {
-    padding: 1vw;
-    border: solid #000 .5vw;
-} */
-
+/* Styling posts converted from Typst */
 details[open] {
     padding: 3%;
     border: solid #434a99 2px;
 }
 
 details {
-    /* padding: 1.5vh; */
     padding: 2%;
     border: solid #434a99 2px;
+}
+
+
+/* Adding some space around list items */
+:not(nav) > ul > li, :not(nav) > ol > li {
+    margin: 3vh;
+    padding-left: 3%;
+    list-style-position: outside;
 }
