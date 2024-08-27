@@ -1,8 +1,11 @@
 ---
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: {{ replace .File.ContentBaseName "-" " " | title }}
 date: {{ .Date }}
 draft: true
-math: false
-mermaid: false
-private: false
+markup: markdown
+
+params:
+    math: false
+    mermaid: false
+    private: false
 ---
