@@ -49,6 +49,21 @@ body {
     line-height: 1.5em;
     height: 100%;
 
+    /* background-repeat: no-repeat;
+    background-blend-mode: difference;
+    background-attachment: fixed;
+    background:
+        linear-gradient(0deg, rgb(67, 30, 1) 0%, rgb(69, 0, 69) 100%),
+        linear-gradient(90deg, rgb(1, 81, 1) 0%, rgb(69, 0, 69) 100%),
+        linear-gradient(0deg, rgb(3, 162, 255) 0%, rgb(75, 0, 0) 100%),
+        linear-gradient(90deg, rgba(121,0,255,1) 0%, rgba(2,0,36,1) 100%),
+        linear-gradient(30deg, red, blue, green, rgb(101, 32, 0)),
+        linear-gradient(-30deg, red, blue, green, rgb(101, 32, 0)),
+        linear-gradient(50deg, red, blue, green, rgb(101, 32, 0)),
+        linear-gradient(-50deg, red, blue, green, rgb(101, 32, 0)),
+        radial-gradient(yellow, purple, green),
+        radial-gradient(pink, purple, green); */
+
     /* These are for creating area */
     /* for the footer to occupy at */
     /* the bottom */
@@ -62,9 +77,9 @@ body {
 
 
 /* Paragraphs */
-p {
+/* p {
     margin-bottom: 5%;
-}
+} */
 
 
 /* Footer */
@@ -223,6 +238,14 @@ blockquote {
     text-shadow: 0px 0.03rem 5px #adc4fa;
 }
 
+.post > p {
+    margin-bottom: 7vh;
+}
+
+.post > p + div.highlight {
+    margin-top: -4vh !important;
+}
+
 
 /* Socials */
 .social-container {
@@ -282,6 +305,7 @@ details[open] {
 }
 
 details {
+    margin-bottom: 3%;
     padding: 2%;
     border: solid #434a99 2px;
 }
