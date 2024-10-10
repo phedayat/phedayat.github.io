@@ -143,9 +143,23 @@ pre {
     background: #161414;
 }
 
+.playlist {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.playlist > iframe {
+    height: 400px;
+    width: 60%;
+    border-radius: 12px;
+    /* margin-bottom: 2%; */
+}
+
+/* iframe {
+} */
 
 /* Images, tables, misc. */
-img, iframe, video {
+img, video {
     max-width: 100%;
     height: auto;
     display: block;
