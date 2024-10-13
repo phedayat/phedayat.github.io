@@ -3,15 +3,13 @@ languageCode = 'en-us'
 title = 'ph'
 theme = 'hugo-classic'
 description = 'My speck of the internet'
+disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
 footer = ''
 
 [markup.highlight]
-# style = "catppuccin-mocha"
 style = "modus-vivendi"
-# style = "onedark"
-# style = "rose-pine"
 
 [markup.goldmark.renderer]
 unsafe = true
