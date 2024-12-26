@@ -1,12 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Code+Pro&display=swap');
 html { 
-  font-family: 'Noto Sans Mono';
+  font-family: 'Open Sans';
 }
 
-.date {
-  font-family: monospace;
-  font-size: 110%;
-  margin-right: 2vw;
+.date {}
+
+.dates {
+  margin-top: 5%;
+  line-height: 10%;
+}
+
+.date-type {
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+}
+
+.date-label {
+  margin-right: 1vw;
+  text-wrap: nowrap;
 }
 
 /* Code inside a codeblock */
