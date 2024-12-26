@@ -17,7 +17,20 @@
   {{ $delim := "" }}
   <strong><span class="title">{{ $delim }} {{ .Title | markdownify }}</span></strong>
   {{ if .Params.subtitle }}<p>{{ $delim }} {{ .Params.subtitle | markdownify }}</p>{{ end }}
-  {{ if .Params.date }}<p class="date">{{ $delim }} {{ .Date.Format "2006-01-02" }}</p>{{ end }}
+  <!-- <div class="dates">
+    {{ if .Params.date }}
+      <div class="date-type">
+        <h4 class="date-label">Published:</h4>
+        <h4 class="date">{{ $delim }} {{ .Date.Format "2006-01-02" }}</h4>
+      </div>
+      {{ end }}
+    {{ if .Params.last_updated }}
+      <div class="date-type">
+        <h4 class="date-label">Updated: </h4>
+        <h4 class="date"> {{ $delim }} {{ .Date.Format "2006-01-02" }}</h4>
+      </div>
+    {{ end }}
+  </div> -->
 </div>
 
 <!-- The post content -->
