@@ -4,17 +4,17 @@ html {
 }
 
 .date {
-  float: right;
+  font-family: monospace;
+  margin-right: 5%;
 }
 
 .dates {
   margin-top: 5%;
-  line-height: 10%;
+  line-height: 0%;
 }
 
 .date-type {
   display: flex;
-  max-width: 25%;
   align-items: center;
   justify-content: space-between;
 }
