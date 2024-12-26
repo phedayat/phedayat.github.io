@@ -3,7 +3,9 @@ html {
   font-family: 'Open Sans';
 }
 
-.date {}
+.date {
+  float: right;
+}
 
 .dates {
   margin-top: 5%;
@@ -12,12 +14,12 @@ html {
 
 .date-type {
   display: flex;
+  max-width: 25%;
   align-items: center;
-  max-width: max-content;
+  justify-content: space-between;
 }
 
 .date-label {
-  margin-right: 1vw;
   text-wrap: nowrap;
 }
 

@@ -20,14 +20,14 @@
   <div class="dates">
     {{ if .Params.date }}
       <div class="date-type">
-        <h3 class="date-label">Published:</h3>
-        <h3 class="date">{{ $delim }} {{ .Date.Format "2006-01-02" }}</h3>
+        <h4 class="date-label">Published:</h4>
+        <h4 class="date">{{ $delim }} {{ .Date.Format "2006-01-02" }}</h4>
       </div>
       {{ end }}
     {{ if .Params.last_updated }}
       <div class="date-type">
-        <h3 class="date-label">Updated: </h3>
-        <h3 class="date"> {{ $delim }} {{ .Date.Format "2006-01-02" }}</h3>
+        <h4 class="date-label">Updated: </h4>
+        <h4 class="date"> {{ $delim }} {{ .Date.Format "2006-01-02" }}</h4>
       </div>
     {{ end }}
   </div>
