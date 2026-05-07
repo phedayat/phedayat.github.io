@@ -4,5 +4,5 @@ date: {{ .Date }}
 draft: true
 math: false
 mermaid: false
-private: false
+private: true
 ---
