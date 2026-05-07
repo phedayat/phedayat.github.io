@@ -5,6 +5,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
+  pull_request:
+    types: [opened, synchronize]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -58,12 +60,13 @@ jobs:
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v4
         with:
           path: ./public
 
   # Deployment job
   deploy:
+    if: ${{ github.event_name == 'push' && startsWith(github.ref, 'refs/heads/master') }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
