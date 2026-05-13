@@ -88,7 +88,7 @@ $$
 
 One caveat is that Spotify paginates their responses, limiting the number of songs we can pull from a playlist at a time to 100 tracks. Knowing this, we can calculate the exact number of offsets, and all of their values, we need to get all of the songs.
 
-If we get the total number of tracks `T` in the playlist, then the number of offsets to get the whole playlist is `T // 100 + 1`, and the values of those offsets will be `[100 * i for i in range(T // 100 + 1)]` (where // is integer division in Python).
+If we get the total number of tracks `T` in the playlist, then the number of offsets to get the whole playlist is `T // 100 + 1`, and the values of those offsets will be `[100 * i for i in range(T // 100 + 1)]` (where `//` is integer division in Python).
 
 ## Build
 
