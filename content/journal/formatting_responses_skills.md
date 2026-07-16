@@ -3,7 +3,7 @@ title: Response-formatting Skills in Claude
 date: 2026-07-16
 ---
 
-I use the Claude desktop app constantly for doing preliminary research on questions and new projects. Every model I've ever used seems to have a problem with responding with a Kantian wall of text to questions that demand a much leaner response format. In general, the models need explicit guidance on how to respond in a much more palatable format. These are the skills I use to enforce that.
+I use the Claude desktop app constantly for doing preliminary research and ideation about new projects. Every model I've ever used seems to have a problem with responding with a Kantian wall of text to questions that demand a much leaner response format. In general, the models need explicit guidance on how to respond in a much more palatable format; these are the skills I use to enforce that.
 
 ## Adding to Claude
 This works in the desktop and web versions of Claude. 
