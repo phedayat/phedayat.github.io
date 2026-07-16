@@ -1,7 +1,7 @@
 /* Dark mode */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #302c5f;
+        background-color: #201b56;
         color: white;
     }
 
@@ -291,7 +291,7 @@ details {
 
 /* Adding some space around list items */
 :not(nav) > ul > li, :not(nav) > ol > li {
-    margin: 3vh;
-    padding-left: 3%;
+    margin: 1vh;
+    padding-left: 1%;
     list-style-position: outside;
 }
