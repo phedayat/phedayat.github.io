@@ -1,45 +1,43 @@
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #0f0d29;
-        color: rgb(208, 219, 223);
-    }
 
-    blockquote {
-        background: #393e41;
-    }
+body {
+    background-color: #0f0d29;
+    color: rgb(208, 219, 223);
+}
 
-    a {
-        color: #9caeff;
-    }
+blockquote {
+    background: #393e41;
+}
 
-    header {
-        background: none;
-        border-bottom: 2px solid #00a6ff;
-    }
+a {
+    color: #9caeff;
+}
 
-    .article-meta,
-    .menu a {
-        /* background: #393E41; */
-        background: #100f20;
-        color: white;
-    }
+header {
+    background: none;
+    border-bottom: 2px solid #00a6ff;
+}
 
-    table {
-        margin: auto;
-        border-top: 1px solid #666;
-        border-bottom: 1px solid #666;
-    }
-    table thead th {
-        border-bottom: 1px solid #666;
-    }
-    th,
-    td {
-        padding: 5px;
-    }
-    tr:nth-child(even) {
-        background: #666;
-    }
+.article-meta,
+.menu a {
+    /* background: #393E41; */
+    background: #100f20;
+    color: white;
+}
+
+table {
+    margin: auto;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+table thead th {
+    border-bottom: 1px solid #666;
+}
+th,
+td {
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background: #666;
 }
 
 
