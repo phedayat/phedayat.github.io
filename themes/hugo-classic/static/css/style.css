@@ -63,7 +63,6 @@ body {
 
 /* Paragraphs */
 p {
-    margin-bottom: 0%;
     font-weight: 100;
     letter-spacing: 0.01rem;
 }
@@ -149,7 +148,8 @@ pre {
     padding: 1rem;
     overflow-x: auto;
     white-space: pre-wrap;
-    margin: 3rem auto;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
     box-shadow: 0rem 0rem .175rem #e0ddfe;
     border-radius: 1rem;
     background: #161414;
