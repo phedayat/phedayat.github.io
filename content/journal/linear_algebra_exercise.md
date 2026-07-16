@@ -172,11 +172,13 @@ def orthogonal_projection(v, basis, s):
     for i in range(2, dim+1):
         p += inner_product(v, basis[i], s) * basis[i]
     return p
+```
 
-Final Computation
+### Final Computation
 
 We’re finally ready to put the computations together:
 
+```python
 def main():
     x = Symbol("x")
     basis = [x ** i for i in range(6)]
