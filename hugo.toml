@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'ph'
 theme = 'hugo-classic'
 description = 'My speck of the internet'
-disableKinds = ['taxonomy', 'term', 'RSS']
+disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
 footer = ''
