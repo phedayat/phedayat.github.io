@@ -1,0 +1,44 @@
+- **Fields that the theme templates read**
+  - `title`
+    - Shows the title on the page, in the `<title>` tag and in the journal list.
+    - Sources: `themes/hugo-classic/layouts/_default/single.html:18`, `partials/header.html:8`, `partials/journal.html:7`
+  - `date`
+    - Gives the date in the journal list.
+    - Source: `partials/journal.html:6`
+  - `description`
+    - Sets the meta description.
+    - If you leave it out, the site description is used.
+    - Source: `partials/header.html:7`
+  - `subtitle`
+    - Shows a line under the title.
+    - Source: `_default/single.html:19`
+  - `math`
+    - Loads KaTeX.
+    - Source: `_default/single.html:5`
+  - `mermaid`
+    - Loads Mermaid.
+    - Source: `_default/single.html:10`
+  - `private`
+    - Removes the page from the journal list.
+    - The page still gets built and published.
+    - Source: `partials/journal.html:4`
+  - `last_updated`
+    - It currently has no visible effect.
+    - Source: `_default/single.html:27`
+  - `showtitle`
+    - Only list pages read it, such as `content/journal/_index.md`.
+    - Source: `_default/list.html:6`
+- **Hugo built-in fields**
+  - The fields are `aliases`, `build`, `cascade`, `date`, `description`, `draft`, `expiryDate`, `headless`, `isCJKLanguage`, `keywords`, `lastmod`, `layout`, `linkTitle`, `markup`, `menus`, `modified`, `outputs`, `params`, `pubdate`, `publishDate`, `published`, `resources`, `sitemap`, `sites`, `slug`, `summary`, `title`, `translationKey`, `type`, `unpublishdate`, `url` and `weight`.
+    - Source: https://gohugo.io/content-management/front-matter/
+  - Your journal files already use `draft` and `sitemap.disable`.
+    - Sources: `archetypes/default.md`, `content/journal/re-coatue-presentation.md:5`
+- **Problems I found**
+  - The `date` and `last_updated` block on the article page is inside an HTML comment.
+    - So neither date shows on the article page.
+    - Source: `_default/single.html:20-32`
+  - Even if you remove the comment, the "Updated" line prints `.Date` and not `last_updated`.
+    - Source: `_default/single.html:30`
+  - `private: true` only hides a page from the list.
+    - The page is still public at its URL.
+    - Should it also be removed from the sitemap or not built at all?
